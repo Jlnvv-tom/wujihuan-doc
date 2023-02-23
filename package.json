@@ -1,0 +1,18 @@
+{
+  "name": "wujihuan-doc",
+  "version": "1.0.0",
+  "description": "wujihuan学习记录文档",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "1.0.0-alpha.47",
+    "vue": "^3.2.47"
+  }
+}
