@@ -1,15 +1,28 @@
-# hello world
+---
+layout: home
 
-## 1、总结沉淀每周的思考
-
-1、name 必须以字母开头，且不可以带有除中划线和下划线外的特殊符号
-
-2、url 只是 html 地址，子应用的页面渲染还是基于浏览器地址的，关于这点请查看路由一章
-
-3、baseroute 的作用请查看路由配置
-
-4、子应用必须支持跨域访问，跨域配置参考这里
-
-## 2、分享技术学习的成果
-
-## 3、自我提升
+hero:
+  name: WuJiHuan
+  text: fantasy and reality, crucial moment.
+  tagline: 生活就像海洋，只有意志坚强的人才能到达彼岸...
+  image:
+    src: /logo.png
+    alt: WuJiHuan
+  actions:
+    - theme: brand
+      text: Get Started
+      link: /guide/getting-started
+    - theme: alt
+      text: View on GitHub
+      link: https://github.com/Jlnvv-tom
+features:
+  - icon: ⚡️
+    title: Vite, The DX that can't be beat
+    details: Lorem ipsum...
+  - icon: 🖖
+    title: Power of Vue meets Markdown
+    details: Lorem ipsum...
+  - icon: 🛠️
+    title: Simple and minimal, always
+    details: Lorem ipsum...
+---
