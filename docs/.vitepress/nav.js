@@ -1,40 +1,36 @@
 const myNav = [
-  { text: 'Guide', link: '/guide/', activeMatch: '/guide/' },
-  { text: 'Config', link: '/handbook/', activeMatch: '/handbook/' },
-  { text: 'Plugins', link: '/plugins/', activeMatch: '/plugins/' },
   {
-    text: 'Resources',
+    text: '名人名言',
     items: [
-      { text: 'Team', link: '/team' },
+      { text: '文学', link: '/guide/' },
       {
         items: [
-          {
-            text: 'Twitter',
-            link: 'https://twitter.com/vite_js',
-          },
-          {
-            text: 'Discord Chat',
-            link: 'https://chat.vitejs.dev',
-          },
-          {
-            text: 'Awesome Vite',
-            link: 'https://github.com/vitejs/awesome-vite',
-          },
-          {
-            text: 'DEV Community',
-            link: 'https://dev.to/t/vite',
-          },
-          {
-            text: 'Rollup Plugins Compat',
-            link: 'https://vite-rollup-plugins.patak.dev/',
-          },
-          {
-            text: 'Changelog',
-            link: 'https://github.com/vitejs/vite/blob/main/packages/vite/CHANGELOG.md',
-          },
-        ],
+          { text: '现代文学', link: '/guide/' },
+          { text: '西方文学', link: '/guide/' },
+          { text: '古典文学', link: '/guide/' },
+          { text: '现到文学', link: '/guide/' },
+        ]
       },
-    ],
+      { text: '现到文学', link: '/guide/' },
+    ]
   },
+  {
+    text: '前端学习',
+    items: [
+      { text: 'Javascript', link: '/handbook/' },
+      {
+        items: [
+          { text: 'HTML5', link: '/handbook/' },
+          { text: 'CSS', link: '/handbook/' },
+          { text: 'VUE', link: '/handbook/' },
+          { text: '算法', link: '/handbook/' },
+        ]
+      },
+      { text: '设计模式', link: '/guide/' },
+    ]
+  },
+  { text: '计算机科学', link: '/computer/', activeMatch: '/computer/' },
+  { text: '美好生活', link: '/good-life/', activeMatch: '/good-life/' },
+  { text: '思想感悟', link: '/inspiration/', activeMatch: '/inspiration/' },
 ]
 export default myNav

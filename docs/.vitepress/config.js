@@ -22,6 +22,9 @@ export default {
     author: 'wujihuan',
     lastUpdatedText: '上次更新时间', //最后更新时间文本
     logo: "/avatar.jpeg", //导航栏左侧头像
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/Jlnvv-tom' },
+    ],
     docFooter: { //上下篇文本
       prev: '上一篇',
       next: '下一篇'
