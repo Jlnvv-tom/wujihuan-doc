@@ -10,7 +10,7 @@ hero:
     alt: WuJiHuan
   actions:
     - theme: brand
-      text: Get Started
+      text: 那开始吧
       link: /guide/getting-started
     - theme: alt
       text: View on GitHub
