@@ -17,7 +17,7 @@ const myNav = [
   {
     text: '前端学习',
     items: [
-      { text: 'Javascript', link: '/handbook/' },
+      { text: 'Javascript', link: '/handbook/javascript/' },
       {
         items: [
           { text: 'HTML5', link: '/handbook/' },
