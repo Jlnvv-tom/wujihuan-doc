@@ -5,6 +5,7 @@ export default {
   description: 'Just playing around.',
   author: 'wujihuan',
   base: '/wujihuan-doc/',
+  lastUpdated: true,
   markdown: {
     lineNumbers: true,
   },
@@ -21,7 +22,7 @@ export default {
     sidebar: mySidebar, //侧边栏配置
     author: 'wujihuan',
     lastUpdatedText: '上次更新时间', //最后更新时间文本
-    logo: "/avatar.jpeg", //导航栏左侧头像
+    // logo: "/img/avatar.jpg", //导航栏左侧头像
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Jlnvv-tom' },
     ],
@@ -29,5 +30,12 @@ export default {
       prev: '上一篇',
       next: '下一篇'
     },
+    editLink: {
+      pattern: 'https://github.com/Jlnvv-tom/wujihuan-doc/edit/dev/docs/:path'
+    },
+    footer: {
+      message: '热爱生活，喜好美食，追求未来！',
+      copyright: 'Copyright © 2023-present 焕然一新组合出版'
+    }
   }
 }
