@@ -18,6 +18,25 @@ const mySideBar = {
       ]
     }
   ],
+  '/inspiration/': [
+    {
+      text: '如实说也',
+      items: [
+        {
+          text: '平常事件看法',
+          link: '/inspiration/',
+        },
+        {
+          text: '论守时',
+          link: '/inspiration/punctual',
+        },
+        {
+          text: '论第一印象',
+          link: '/inspiration/first-impression',
+        },
+      ]
+    }
+  ],
   '/handbook/javascript/': [
     {
       text: 'JavaScript学习',
