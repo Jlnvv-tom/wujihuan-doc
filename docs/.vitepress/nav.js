@@ -31,6 +31,6 @@ const myNav = [
   },
   { text: '计算机科学', link: '/computer/', activeMatch: '/computer/' },
   { text: '美好生活', link: '/good-life/', activeMatch: '/good-life/' },
-  { text: '思想感悟', link: '/inspiration/', activeMatch: '/inspiration/' },
+  { text: '如是说也', link: '/inspiration/', activeMatch: '/inspiration/' },
 ]
 export default myNav
