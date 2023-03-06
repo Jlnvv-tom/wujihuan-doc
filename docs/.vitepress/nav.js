@@ -23,7 +23,7 @@ const myNav = [
           { text: 'HTML5', link: '/handbook/' },
           { text: 'CSS', link: '/handbook/' },
           { text: 'VUE', link: '/handbook/' },
-          { text: '算法', link: '/handbook/' },
+          { text: 'Node.js', link: '/handbook/node/index.md' },
         ]
       },
       { text: '设计模式', link: '/guide/' },

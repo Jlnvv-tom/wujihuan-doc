@@ -57,6 +57,17 @@ const mySideBar = {
     }
 
   ],
+  '/handbook/node/': [
+    {
+      text: 'Node.js学习',
+      items: [
+        {
+          text: 'node 爬虫试探',
+          link: '/handbook/node/my-node-spider',
+        },
+      ]
+    }
+  ],
 }
 
 export default mySideBar
