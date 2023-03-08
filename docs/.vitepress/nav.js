@@ -30,7 +30,13 @@ const myNav = [
     ]
   },
   { text: '计算机科学', link: '/computer/', activeMatch: '/computer/' },
-  { text: '美好生活', link: '/good-life/', activeMatch: '/good-life/' },
+  {
+    text: '美好生活',
+    items: [
+      { text: '读书时光', link: '/good-life/read/' },
+      { text: '好吃的', link: '/good-life/eat/' },
+    ]
+  },
   { text: '如是说也', link: '/inspiration/', activeMatch: '/inspiration/' },
 ]
 export default myNav
