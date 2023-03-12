@@ -42,6 +42,10 @@ const mySideBar = {
       text: 'JavaScript学习',
       items: [
         {
+          text: '前端工具',
+          link: '/handbook/javascript/tools',
+        },
+        {
           text: 'JavaScript介绍',
           link: '/handbook/javascript/',
         },
