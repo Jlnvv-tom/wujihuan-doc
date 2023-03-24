@@ -34,6 +34,10 @@ const mySideBar = {
           text: '论第一印象',
           link: '/inspiration/first-impression',
         },
+        {
+          text: '论加班',
+          link: '/inspiration/overtime',
+        },
       ]
     }
   ],
