@@ -18,6 +18,21 @@ const mySideBar = {
       ]
     }
   ],
+  '/computer/': [
+    {
+      text: '计算机科学',
+      items: [
+        {
+          text: '计算机技术',
+          link: '/computer/',
+        },
+        {
+          text: '图形学',
+          link: '/computer/graph',
+        },
+      ]
+    }
+  ],
   '/inspiration/': [
     {
       text: '如实说也',
