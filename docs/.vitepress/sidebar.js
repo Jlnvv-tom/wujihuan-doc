@@ -53,6 +53,10 @@ const mySideBar = {
           text: '论加班',
           link: '/inspiration/overtime',
         },
+        {
+          text: '论分析问题',
+          link: '/inspiration/efficiency',
+        },
       ]
     }
   ],
