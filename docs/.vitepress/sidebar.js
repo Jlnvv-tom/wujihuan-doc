@@ -30,6 +30,10 @@ const mySideBar = {
           text: '图形学',
           link: '/computer/graph',
         },
+        {
+          text: 'emojis',
+          link: '/emojis/',
+        },
       ]
     }
   ],
@@ -56,6 +60,10 @@ const mySideBar = {
         {
           text: '论分析问题',
           link: '/inspiration/efficiency',
+        },
+        {
+          text: '论人际关系',
+          link: '/inspiration/interpersonal_relationship',
         },
       ]
     }
