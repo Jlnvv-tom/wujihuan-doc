@@ -18,6 +18,25 @@ const mySideBar = {
       ]
     }
   ],
+  '/computer/': [
+    {
+      text: '计算机科学',
+      items: [
+        {
+          text: '计算机技术',
+          link: '/computer/',
+        },
+        {
+          text: '图形学',
+          link: '/computer/graph',
+        },
+        {
+          text: 'emojis',
+          link: '/emojis/',
+        },
+      ]
+    }
+  ],
   '/inspiration/': [
     {
       text: '如实说也',
@@ -34,6 +53,18 @@ const mySideBar = {
           text: '论第一印象',
           link: '/inspiration/first-impression',
         },
+        {
+          text: '论加班',
+          link: '/inspiration/overtime',
+        },
+        {
+          text: '论分析问题',
+          link: '/inspiration/efficiency',
+        },
+        {
+          text: '论人际关系',
+          link: '/inspiration/interpersonal_relationship',
+        },
       ]
     }
   ],
@@ -41,6 +72,10 @@ const mySideBar = {
     {
       text: 'JavaScript学习',
       items: [
+        {
+          text: '前端工具',
+          link: '/handbook/javascript/tools',
+        },
         {
           text: 'JavaScript介绍',
           link: '/handbook/javascript/',
