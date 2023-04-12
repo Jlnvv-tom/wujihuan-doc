@@ -31,6 +31,10 @@ const mySideBar = {
           link: '/computer/graph',
         },
         {
+          text: 'tscofing.json 常用配置',
+          link: '/computer/tsconfig.json',
+        },
+        {
           text: 'emojis',
           link: '/emojis/',
         },
