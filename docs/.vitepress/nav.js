@@ -38,5 +38,7 @@ const myNav = [
     ]
   },
   { text: '如是说也', link: '/inspiration/', activeMatch: '/inspiration/' },
+  { text: '英语学习', link: '/english/', activeMatch: '/english/' },
+
 ]
 export default myNav
