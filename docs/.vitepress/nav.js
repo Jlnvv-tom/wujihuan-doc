@@ -20,7 +20,7 @@ const myNav = [
       { text: 'Javascript', link: '/handbook/javascript/' },
       {
         items: [
-          { text: 'HTML5', link: '/handbook/' },
+          { text: 'HTML5', link: '/handbook/html5/' },
           { text: 'CSS', link: '/handbook/' },
           { text: 'VUE', link: '/handbook/' },
           { text: 'Node.js', link: '/handbook/node/index.md' },
