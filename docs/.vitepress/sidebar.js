@@ -96,6 +96,23 @@ const mySideBar = {
     }
 
   ],
+  '/handbook/html5/': [
+    {
+      text: 'HTML5学习',
+      items: [
+        {
+          text: 'html5介绍',
+          link: '/handbook/html5/',
+        },
+        {
+          text: 'SVG 学习',
+          link: '/handbook/html5/svg',
+        },
+
+      ]
+    }
+
+  ],
   '/handbook/node/': [
     {
       text: 'Node.js学习',
