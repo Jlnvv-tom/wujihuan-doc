@@ -17,12 +17,12 @@ hero:
       link: https://github.com/Jlnvv-tom
 features:
   - icon: ⚡️
-    title: Vite, The DX that can't be beat
-    details: Lorem ipsum...
+    title: 记录让生活充满回忆
+    details: 存储工具扩展了人脑记忆力，让记忆世界更丰富
   - icon: 🖖
-    title: Power of Vue meets Markdown
-    details: Lorem ipsum...
+    title: 动手实践体验造物者的快感
+    details: 世上本没有一些东西，人们创造了这些东西
   - icon: 🛠️
-    title: Simple and minimal, always
-    details: Lorem ipsum...
+    title: 利用工具让事情变得高效
+    details: 工业、信息、AI技术革命者们努力打造效率工具
 ---

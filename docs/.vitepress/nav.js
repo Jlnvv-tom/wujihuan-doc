@@ -21,8 +21,9 @@ const myNav = [
       {
         items: [
           { text: 'HTML5', link: '/handbook/html5/' },
-          { text: 'CSS', link: '/handbook/' },
-          { text: 'VUE', link: '/handbook/' },
+          { text: 'CSS', link: '/handbook/css3/' },
+          { text: 'Axios', link: '/handbook/axios/' },
+          { text: 'VUE', link: '/handbook/vue/' },
           { text: 'Node.js', link: '/handbook/node/index.md' },
         ]
       },
