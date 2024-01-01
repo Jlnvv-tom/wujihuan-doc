@@ -23,8 +23,12 @@ const mySideBar = {
       text: '计算机科学',
       items: [
         {
-          text: '计算机技术',
+          text: '首页',
           link: '/computer/',
+        },
+        {
+          text: '设计模式',
+          link: '/computer/design-patterns/',
         },
         {
           text: '图形学',
@@ -36,7 +40,7 @@ const mySideBar = {
         },
         {
           text: 'emojis',
-          link: '/emojis/',
+          link: '/computer/emojis/',
         },
       ]
     }
@@ -120,6 +124,39 @@ const mySideBar = {
         {
           text: 'node 爬虫试探',
           link: '/handbook/node/my-node-spider',
+        },
+      ]
+    }
+  ],
+  '/handbook/css3/': [
+    {
+      text: 'css3学习',
+      items: [
+        {
+          text: 'node 爬虫试探',
+          link: '/handbook/css3/',
+        },
+      ]
+    }
+  ],
+  '/handbook/axios/': [
+    {
+      text: 'axios学习',
+      items: [
+        {
+          text: 'axios学习',
+          link: '/handbook/axios/',
+        },
+      ]
+    }
+  ],
+  '/handbook/vue/': [
+    {
+      text: 'vue学习',
+      items: [
+        {
+          text: 'vue学习',
+          link: '/handbook/vue/',
         },
       ]
     }
