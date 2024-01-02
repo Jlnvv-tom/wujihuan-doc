@@ -13,6 +13,9 @@ hero:
       text: 那开始吧
       link: /guide/getting-started
     - theme: alt
+      text: 认识作者
+      link: /guide/me
+    - theme: alt
       text: 访问 GitHub
       link: https://github.com/Jlnvv-tom
 features:
