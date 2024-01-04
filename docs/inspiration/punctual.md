@@ -1,4 +1,4 @@
-# 关于守时
+# 关于守时 (punctual)
 
 ## 故事环节
 
@@ -8,4 +8,6 @@
 
 ## 情景分析
 
-![守时](../images/music.png)
+![守时](../public/images/music.png)
+
+

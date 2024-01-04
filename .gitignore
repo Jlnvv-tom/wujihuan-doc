@@ -9,7 +9,10 @@ lerna-debug.log*
 
 node_modules
 
-.vitepress/dist
+# 打包文件和缓存文件不提交git
+docs/.vitepress/dist
+docs/.vitepress/cache
+
 dist-ssr
 *.local
 # Editor directories and files
