@@ -1,4 +1,4 @@
-# tsconfig.json
+# tsconfig.json 配置介绍
 
 tsconfig.json 是用来配置 TS 编译选项的，通常位于项目的根目录位置。
 
@@ -39,18 +39,18 @@ You can learn more at https://aka.ms/tsconfig
 顶层配置
 首先我们看配置最上层级的配置字段。
 
-### compilerOptions：
+## compilerOptions：
 编译器相关的选项。比如配置编译成 ES5，模块化使用 commonjs 等。这里的编译配置很多，后面我们会讲解一些常用的配置；
 
-### files：
+## files：
 指定需要被编译的文件列表。这里不能指定目录，只能是文件，可以省略 .ts 后缀。适合需要编译的文件比较少的情况。默认值为 false；
-### include：
+## include：
 指定需要编译的文件列表或匹配模式。include 可以通过通配符指定目录，如 "src/**/*" 表示 src 下的所有文件。如果没有指定 files 配置，默认值为 ** ，即项目下所有文件；如果配置了 files，默认值为 [] 空数组；
-### exclude：
+## exclude：
 在 include 圈定的范围内，排除掉一些文件。我们经常用它来排除编译输出目录、测试文件目录、一些生成文件的脚本等文件。默认值为 "node_modules,bower_componen"；
-### extends：
+## extends：
 继承另一个 ts 配置文件。这在 monorepo 的代码组织中非常有用，不同的 package 可以通过 extends 继承通用的 ts 配置。用法示例："extends": "./common-tsconfig.json"。
-### reference：
+## reference：
 引用。项目中如果有多个相互独立的模块，可以使用这个属性来做分离。这样一个模块改变后，就只重新编译这个模块，其他模块不重新编译。编译时要改用 tsc --build。这在非常大的项目中应该能有不小收益。
 需要注意的是，files、include、exclude 只是指定编译的入口文件范围，如果其中的文件 import 了范围外的 ts 文件，范围外的文件依旧会被编译。
 
@@ -60,7 +60,7 @@ You can learn more at https://aka.ms/tsconfig
 
 因为配置项实在很多，我就挑一些比较基本的进行讲解。
 
-### target:
+## target:
 指定编译的目标版本。
 
 tsc 也可以像 babel 一样，可以将高版本的 TS / JS 编译为低版本。你看这个 tsc 脚本多大。
@@ -78,7 +78,7 @@ target 支持的值有：es3、es5、es6（也叫 es2015）、es2016 一直到 e
 
 通常来说前端项目会使用 es5。后端项目就看 nodejs 的版本支持 ES 的程度，像 Nestjs 脚手架生成的项目，taget 指定为 es2017。
 
-### lib:
+## lib:
 TypeScript 默认自带通用的 JS 内置 API 的类型声明，比如 Math、RegExp 等。
 
 但 JS 运行的环境各种各样，会有一些特有的全局对象，比如浏览器下的 document，新的 ES 版本引入的新的 API。
@@ -102,7 +102,7 @@ lib 可以引入的全局类型声明文件都在这个目录下：
 
 https://github.com/microsoft/TypeScript/blob/main/lib
 
-### strict:
+## strict:
 启用严格模式，能够更能保证类型检测的正确。
 
 将 strict 设置为 true，会开启一系列的严格的类型检验配置。
@@ -115,7 +115,7 @@ https://github.com/microsoft/TypeScript/blob/main/lib
 
 建议开启 strict，能减少 bug，缺点是要多写一些类型推断和分支判断的代码。
 
-### baseUrl:
+## baseUrl:
 baseUrl 用于设置基础 url，可以帮我们省掉一些多余的路径前缀。
 
 比如我们原来要写长长的：
@@ -132,7 +132,7 @@ import { Login } from "features/user/login";
 
 如果你想使用相对项目根目录的路径，你需要将 baseUrl 设置为 . 。
 
-### paths:
+## paths:
 路径重映射。
 
 要使用 paths，首先要设置好 baseUrl，paths 的源路径和新路径会使用 baseUrl 作为相对路径计算。
@@ -153,21 +153,21 @@ import LibA from "other/_lib/lib_a";
 
 import LibA from "@lib/lib_a";
 ```
-### declaration:
+## declaration:
 是否给每个编译出来的 JS 生成对应的 d.ts 类型声明文件。
 
 TS 编译后变成的 JS 是不携带类型信息的。如果你想要保留信息，就需要一个 d.ts 文件来描述对应的 JS 文件。
 
 我们用 NPM 安装的第三方包，这些包下的 package.json 文件的 types 属性，就指定了这个包的类型文件。如果没有显式提供 types 属性，则使用默认的 index.d.ts。
 
-### declarationDir:
+## declarationDir:
 指定编译生成的类型声明文件输出的目录。不提供的话，默认和生成的 js 文件放在一起。
 
 "declarationDir": "./types"
-### outDir:
+## outDir:
 编译文件的输出目录，默认为 .，即项目根目录。如果不设置它，编译后的文件就会和源文件混杂在一起。通常我们会将 outDir 设置为 "./dist"。
 
-### outFile:
+## outFile:
 将所有 ts 文件合并编译生成一个 js 文件和它的类型声明 d.ts 文件。
 
 这个配置项很少用，因为它只能用在不支持模块化导入的系统，即所有的 ts 文件都是全局的。
@@ -175,7 +175,7 @@ TS 编译后变成的 JS 是不携带类型信息的。如果你想要保留信�
 换句话说，module 配置项需要为 None、System 或 AMD。
 
 "outFile": "./app.js"
-### module：
+## module：
 编译后的 JS 使用哪种模块系统。
 
 模块系统常用的有两种：ESModule 和 CommonJS。前者是 ES 的标准（使用了 import 关键字），后者则是 Nodejs 的使用的模块系统（使用了 require）。此外还有 AMD、UMD 等。
@@ -186,10 +186,10 @@ TS 编译后变成的 JS 是不携带类型信息的。如果你想要保留信�
 https://www.typescriptlang.org/tsconfig#module
 如果 target 是 ES3 或 ES5，默认值是 CommonJS（毕竟 ES6 后才有的 ESModule）；否则为 ES6/ES2015。
 
-### allowJs：
+## allowJs：
 将 js 文件也作为编译对象，可以被 ts 文件引入。布尔值，默认为 false。
 
-### types:
+## types:
 类型声明的一种引入方式是 @types 包，比如 React 框架使用了 flow 作为类型系统，为了支持 TypeScript，React 团队又写一套 d.ts 类型文件，发布到 @types/react 包上。
 
 然后我们下载这个类型包后，并使用类似 import React from 'react'，TS 会从从 node_modules/@types 中找到 react 文件夹，如果找不到，就会向上一层目录继续找，知道找到位置。如果存在，这个 React 对象就会被赋予声明的类型。
@@ -202,11 +202,11 @@ types 配置 可指定只使用哪些全局类型声明，而不是 node_modules
   "node", // 即 node_modules/@types/node
   "jest"
 ]
-### typeRoots:
+## typeRoots:
 前面说到 ts 会递归查找 node_modules/@types 去寻找类型声明文件。
 
 但你也可以用 typeRoots 来 指定只寻找特定目录下的类型声明文件，如：
 
 "typeRoots": ["./typings", "./vendor/types"]
-### 结尾
+## 结尾
 tsconfig 的配置非常多，但我想基本上掌握上面这几个配置的使用就差不多了。

@@ -37,6 +37,7 @@ export default {
       message: '热爱生活，喜好美食，追求未来！',
       copyright: 'Copyright © 2024-present 焕然一新组合出版'
     },
+    // aside: 'right',
 
     search: {
       provider: 'local', // 本地搜索
