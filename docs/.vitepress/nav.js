@@ -1,19 +1,5 @@
 const myNav = [
-  {
-    text: '名人名言',
-    items: [
-      { text: '文学', link: '/guide/' },
-      {
-        items: [
-          { text: '现代文学', link: '/guide/' },
-          { text: '西方文学', link: '/guide/' },
-          { text: '古典文学', link: '/guide/' },
-          { text: '现到文学', link: '/guide/' },
-        ]
-      },
-      { text: '现到文学', link: '/guide/' },
-    ]
-  },
+  { text: '名人名言', link: '/guide/', activeMatch: '/guide/' },
   {
     text: '前端学习',
     items: [
