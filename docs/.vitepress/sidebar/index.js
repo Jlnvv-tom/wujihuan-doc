@@ -1,6 +1,7 @@
 import { guideSidebar } from "./guide";
 import { computerSidebar } from "./computer";
 import { inspirationSidebar } from "./inspiration";
+import { englishSidebar } from "./english";
 import {
   javascriptSidebar,
   html5Sidebar,
@@ -20,6 +21,7 @@ const mySideBar = {
   "/handbook/css3/": css3Sidebar,
   "/handbook/axios/": axiosSidebar,
   "/handbook/vue/": vueSidebar,
+  "/english/": englishSidebar,
 };
 
 export default mySideBar;

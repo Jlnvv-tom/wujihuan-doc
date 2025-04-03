@@ -1,4 +1,3 @@
-
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme'
 
@@ -9,9 +8,10 @@ const members = [
     title: 'Creator',
     links: [
       { icon: 'github', link: 'https://github.com/Jlnvv-tom' },
-      { icon: 'twitter', link: 'https://twitter.com/youyuxi' }
+      { icon: 'twitter', link: 'https://x.com/wjh87851743' }
     ]
-  }
+  },
+  
 ]
 </script>
 
