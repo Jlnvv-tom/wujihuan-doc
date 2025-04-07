@@ -21,7 +21,7 @@ hero:
 features:
   - icon: ⚡️
     title: 记录让生活充满回忆
-    details: 存储工具扩展了人脑记忆力，让记忆世界更丰富
+    details: 存储工具扩展了人脑记忆力，让记忆的世界更丰富
   - icon: 🖖
     title: 动手实践体验造物者的快感
     details: 世上本没有一些东西，人们创造了这些东西
