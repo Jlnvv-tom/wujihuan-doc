@@ -15,7 +15,7 @@ const members = [
 ]
 </script>
 
-# About author
+# 关于作者
 
 Say hello to our awesome team.
 
