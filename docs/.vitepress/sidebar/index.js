@@ -9,6 +9,8 @@ import {
   css3Sidebar,
   axiosSidebar,
   vueSidebar,
+  fastapiSidebar,
+  reactSidebar,
 } from "./handbook";
 
 const mySideBar = {
@@ -16,6 +18,8 @@ const mySideBar = {
   "/computer/": computerSidebar,
   "/inspiration/": inspirationSidebar,
   "/handbook/javascript/": javascriptSidebar,
+  "/handbook/react/": reactSidebar,
+  "/handbook/fastapi/": fastapiSidebar,
   "/handbook/html5/": html5Sidebar,
   "/handbook/node/": nodeSidebar,
   "/handbook/css3/": css3Sidebar,
