@@ -11,6 +11,7 @@ import {
   vueSidebar,
   fastapiSidebar,
   reactSidebar,
+  golangSidebar,
 } from "./handbook";
 
 const mySideBar = {
@@ -20,6 +21,7 @@ const mySideBar = {
   "/handbook/javascript/": javascriptSidebar,
   "/handbook/react/": reactSidebar,
   "/handbook/fastapi/": fastapiSidebar,
+  "/handbook/golang/": golangSidebar,
   "/handbook/html5/": html5Sidebar,
   "/handbook/node/": nodeSidebar,
   "/handbook/css3/": css3Sidebar,

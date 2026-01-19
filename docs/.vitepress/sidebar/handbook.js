@@ -22,6 +22,7 @@ export const javascriptSidebar = [
   },
 ];
 
+//#region FastAPI
 export const fastapiSidebar = [
   {
     text: "FastAPI学习",
@@ -61,6 +62,76 @@ export const fastapiSidebar = [
       {
         text: "第9章、测试策略与质量保证",
         link: "/handbook/fastapi/chapter_9",
+      },
+      {
+        text: " 第10章、部署与性能优化",
+        link: "/handbook/fastapi/chapter_10",
+      },
+      {
+        text: " 第11章、高级特性与扩展",
+        link: "/handbook/fastapi/chapter_11",
+      },
+      {
+        text: " 第12章、实战项目——电商API系统",
+        link: "/handbook/fastapi/chapter_12",
+      },
+    ],
+  },
+];
+//#endregion
+
+//#region GoLang
+export const golangSidebar = [
+  {
+    text: "GoLang学习",
+    items: [
+      {
+        text: "第1章、写给未来的Go程序员——为什么选择Go？",
+        link: "/handbook/golang/chapter_1",
+      },
+      {
+        text: "第2章、从环境搭建到程序运行：第一个 Go 程序之旅",
+        link: "/handbook/golang/chapter_2",
+      },
+      {
+        text: "第3章、基础语法——变量、常量与数据类型",
+        link: "/handbook/golang/chapter_3",
+      },
+      {
+        text: "第4章、简单数据类型详解——整型、浮点、布尔与字符串",
+        link: "/handbook/golang/chapter_4",
+      },
+      {
+        text: "第5章、控制结构——条件、循环与跳转语句",
+        link: "/handbook/golang/chapter_5",
+      },
+      {
+        text: "第6章、函数的艺术——定义、多返回值与闭包",
+        link: "/handbook/golang/chapter_6",
+      },
+      {
+        text: "第7章、复合类型——数组、切片与映射（slice和map）",
+        link: "/handbook/golang/chapter_7",
+      },
+      {
+        text: "第8章、指针与内存管理——理解Go的底层机制",
+        link: "/handbook/golang/chapter_8",
+      },
+      {
+        text: "第9章、结构体与方法——面向对象的Go式实现",
+        link: "/handbook/golang/chapter_9",
+      },
+      {
+        text: " 第10章、接口与多态——Go语言的抽象之美",
+        link: "/handbook/golang/chapter_10",
+      },
+      {
+        text: " 第11章、错误处理与异常机制——构建健壮程序",
+        link: "/handbook/golang/chapter_11",
+      },
+      {
+        text: " 第12章、并发编程基石——goroutine与channel",
+        link: "/handbook/golang/chapter_12",
       },
     ],
   },
