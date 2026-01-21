@@ -137,6 +137,79 @@ export const golangSidebar = [
   },
 ];
 
+//#region Python
+export const pythonSidebar = [
+  {
+    text: "Python学习",
+    items: [
+      {
+        text: "第1章、Python入门与简介",
+        link: "/handbook/python/chapter_1",
+      },
+      {
+        text: "第2章、Python环境搭建与开发工具",
+        link: "/handbook/python/chapter_2",
+      },
+      {
+        text: "第3章、Python基础语法与数据类型",
+        link: "/handbook/python/chapter_3",
+      },
+      {
+        text: "第4章、控制流：条件与循环",
+        link: "/handbook/python/chapter_4",
+      },
+      {
+        text: "第5章、函数与模块",
+        link: "/handbook/python/chapter_5",
+      },
+      {
+        text: "第6章、文件操作与输入输出",
+        link: "/handbook/python/chapter_6",
+      },
+      {
+        text: "第7章、面向对象编程基础",
+        link: "/handbook/python/chapter_7",
+      },
+      {
+        text: "第8章、面向对象编程进阶",
+        link: "/handbook/python/chapter_8",
+      },
+      {
+        text: "第9章、异常处理与调试",
+        link: "/handbook/python/chapter_9",
+      },
+      {
+        text: " 第10章、标准库常用模块",
+        link: "/handbook/python/chapter_10",
+      },
+      {
+        text: " 第11章、正则表达式与字符串处理",
+        link: "/handbook/python/chapter_11",
+      },
+      {
+        text: " 第12章、数据持久化：数据库操作",
+        link: "/handbook/python/chapter_12",
+      },
+      {
+        text: " 第13章、网络编程基础",
+        link: "/handbook/python/chapter_13",
+      },
+      {
+        text: " 第14章、Web开发入门",
+        link: "/handbook/python/chapter_14",
+      },
+      {
+        text: " 第15章、数据分析与可视化",
+        link: "/handbook/python/chapter_15",
+      },
+      {
+        text: " 第16章、进阶主题与项目实践",
+        link: "/handbook/python/chapter_16",
+      },
+    ],
+  },
+];
+
 export const reactSidebar = [
   {
     text: "React.js学习",
