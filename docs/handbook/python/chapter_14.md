@@ -232,7 +232,7 @@ def get_post_api(post_id):
 
 Flask使用Jinja2模板引擎，它结合了HTML的静态性和Python的动态性。让我们创建基础模板和页面模板。
 
-```html
+```python
 <!-- app/templates/base.html -->
 <!DOCTYPE html>
 <html lang="zh-CN">
@@ -302,7 +302,7 @@ Flask使用Jinja2模板引擎，它结合了HTML的静态性和Python的动态�
 </html>
 ```
 
-```html
+```python
 <!-- app/templates/index.html -->
 {% extends "base.html" %} {% block title %}首页 - 我的博客{% endblock %} {%
 block content %}
@@ -366,7 +366,7 @@ block content %}
             {{ page_num }}
           </a>
         </li>
-        {% endif %} {% else %}
+
         <li class="page-item disabled">
           <span class="page-link">...</span>
         </li>
@@ -402,10 +402,12 @@ block content %}
 
 **Jinja2的强大功能**：
 
+```
 - 控制结构：`{% if %}`, `{% for %}`, `{% macro %}`
 - 过滤器：`{{ content|truncate(200)|safe }}`
 - 模板继承：`{% extends %}`, `{% block %}`
 - 包含：`{% include 'widget.html' %}`
+```
 
 ## 5. 表单处理：安全地接收用户输入
 
@@ -516,7 +518,7 @@ def logout():
     return redirect(url_for('main.index'))
 ```
 
-```html
+```python
 <!-- app/templates/login.html -->
 {% extends "base.html" %} {% block title %}{{ title }}{% endblock %} {% block
 content %}

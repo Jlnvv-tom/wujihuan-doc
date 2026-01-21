@@ -9,6 +9,7 @@ export default {
   markdown: {
     lineNumbers: true,
   },
+  ignoreDeadLinks: true, //忽略所有死链接
   lang: "en-US",
   head: [
     [
