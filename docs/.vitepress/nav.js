@@ -19,6 +19,14 @@ const myNav = [
         ],
       },
       {
+        text: "数据库",
+        items: [
+          { text: "MySQL", link: "/handbook/mysql/" },
+          { text: "Redis", link: "/handbook/redis/" },
+          { text: "MongoDB", link: "/handbook/mongodb/" },
+        ],
+      },
+      {
         text: "前端知识",
         items: [
           { text: "React.js", link: "/handbook/react/" },

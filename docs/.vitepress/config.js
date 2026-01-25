@@ -35,7 +35,7 @@ export default {
     },
     footer: {
       message: "热爱生活，喜好美食，追求未来！",
-      copyright: "Copyright © 2025-present 焕然一新组合出版",
+      copyright: "Copyright © 2026-present 焕然一新组合出版",
     },
     aside: "right",
 

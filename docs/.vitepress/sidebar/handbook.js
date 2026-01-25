@@ -210,6 +210,79 @@ export const pythonSidebar = [
   },
 ];
 
+//#region  MySQL
+export const mysqlSidebar = [
+  {
+    text: "MySQL学习",
+    items: [
+      {
+        text: "第1章、数据库基础概念认知",
+        link: "/handbook/mysql/chapter_1",
+      },
+      {
+        text: "第2章、MySQL概述与环境搭建",
+        link: "/handbook/mysql/chapter_2",
+      },
+      {
+        text: "第3章、MySQL基础操作入门",
+        link: "/handbook/mysql/chapter_3",
+      },
+      {
+        text: "第4章、SQL语言基础与查询操作",
+        link: "/handbook/mysql/chapter_4",
+      },
+      {
+        text: "第5章、高级查询与多表关联",
+        link: "/handbook/mysql/chapter_5",
+      },
+      {
+        text: "第6章、数据操纵语言（DML）实战",
+        link: "/handbook/mysql/chapter_6",
+      },
+      {
+        text: "第7章、数据定义语言（DDL）深入",
+        link: "/handbook/mysql/chapter_7",
+      },
+      {
+        text: "第8章、MySQL索引原理与优化实践",
+        link: "/handbook/mysql/chapter_8",
+      },
+      {
+        text: "第9章、事务与锁机制",
+        link: "/handbook/mysql/chapter_9",
+      },
+      {
+        text: " 第10章、视图、存储过程与函数",
+        link: "/handbook/mysql/chapter_10",
+      },
+      {
+        text: " 第11章、触发器与事件调度器",
+        link: "/handbook/mysql/chapter_11",
+      },
+      {
+        text: " 第12章、MySQL用户与权限管理",
+        link: "/handbook/mysql/chapter_12",
+      },
+      {
+        text: " 第13章、MySQL备份与恢复",
+        link: "/handbook/mysql/chapter_13",
+      },
+      {
+        text: " 第14章、MySQL性能监控与优化",
+        link: "/handbook/mysql/chapter_14",
+      },
+      {
+        text: " 第15章、MySQL高可用架构实践",
+        link: "/handbook/mysql/chapter_15",
+      },
+      {
+        text: " 第16章、MySQL分布式与云原生应用",
+        link: "/handbook/mysql/chapter_16",
+      },
+    ],
+  },
+];
+
 export const reactSidebar = [
   {
     text: "React.js学习",
