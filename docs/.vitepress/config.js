@@ -1,14 +1,14 @@
 import myNav from "./nav.js";
 import mySidebar from "./sidebar/index.js";
+import { MermaidPlugin } from "./plugins/mermaid-plugin.js";
+import { MermaidMarkdown } from "./plugins/mermaid-markdown.js";
+
 export default {
   title: "WThinking",
   description: "Just playing around.",
   author: "wujihuan",
   base: "/wujihuan-doc/",
   lastUpdated: true,
-  markdown: {
-    lineNumbers: true,
-  },
   ignoreDeadLinks: true, //忽略所有死链接
   lang: "en-US",
   head: [
@@ -42,5 +42,14 @@ export default {
     search: {
       provider: "local", // 本地搜索
     },
+  },
+  markdown: {
+    lineNumbers: true,
+    config: (md, pluginOptions) => {
+      // MermaidMarkdown(md, pluginOptions);
+    },
+  },
+  vite: {
+    // plugins: [MermaidPlugin()],
   },
 };

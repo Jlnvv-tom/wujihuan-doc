@@ -39,7 +39,13 @@ const myNav = [
       },
     ],
   },
-  { text: "计算机科学", link: "/computer/", activeMatch: "/computer/" },
+  {
+    text: "计算机科学",
+    items: [
+      { text: "HTTP网络知识", link: "/computer/http/" },
+      { text: "吃喝玩乐", link: "/good-life/eat/" },
+    ],
+  },
   {
     text: "美好生活",
     items: [
