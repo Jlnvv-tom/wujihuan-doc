@@ -1,5 +1,5 @@
 import { guideSidebar } from "./guide";
-import { computerSidebar } from "./computer";
+import { computerSidebar, httpSidebar } from "./computer";
 import { inspirationSidebar } from "./inspiration";
 import { englishSidebar } from "./english";
 import {
@@ -18,7 +18,8 @@ import {
 
 const mySideBar = {
   "/guide/": guideSidebar,
-  "/computer/": computerSidebar,
+  // "/computer/": computerSidebar,
+  "/computer/http/": httpSidebar,
   "/inspiration/": inspirationSidebar,
   "/handbook/javascript/": javascriptSidebar,
   "/handbook/react/": reactSidebar,

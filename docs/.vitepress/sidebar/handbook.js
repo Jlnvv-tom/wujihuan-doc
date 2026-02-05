@@ -351,7 +351,7 @@ export const css3Sidebar = [
     text: "css3学习",
     items: [
       {
-        text: "node 爬虫试探",
+        text: "css3学习",
         link: "/handbook/css3/",
       },
     ],
@@ -375,8 +375,52 @@ export const vueSidebar = [
     text: "vue学习",
     items: [
       {
-        text: "vue学习",
-        link: "/handbook/vue/",
+        text: "第1章、Vue.js基础架构与核心概念",
+        link: "/handbook/vue/chapter_1",
+      },
+      {
+        text: "第2章、响应式系统的设计与实现",
+        link: "/handbook/vue/chapter_2",
+      },
+      {
+        text: "第3章、虚拟DOM与Diff算法原理",
+        link: "/handbook/vue/chapter_3",
+      },
+      {
+        text: "第4章、组件系统的设计模式与实现",
+        link: "/handbook/vue/chapter_4",
+      },
+      {
+        text: "第5章、模板编译与代码生成",
+        link: "/handbook/vue/chapter_5",
+      },
+      {
+        text: "第6章、指令系统的架构设计与实现",
+        link: "/handbook/vue/chapter_6",
+      },
+      {
+        text: "第7章、Vue Router路由系统的深度解析",
+        link: "/handbook/vue/chapter_7",
+      },
+      {
+        text: "第8章、状态管理库Vuex/Pinia的设计原理",
+        link: "/handbook/vue/chapter_8",
+      },
+      {
+        text: "第9章、组件更新与渲染机制深度分析",
+        link: "/handbook/vue/chapter_9",
+      },
+      {
+        text: "第10章、Vue 3组合式API的设计革新",
+        link: "/handbook/vue/chapter_10",
+      },
+      {
+        text: "第11章、高级特性与性能优化技术",
+        link: "/handbook/vue/chapter_11",
+      },
+      {
+        text: "第12章、Vue生态源码工程实践l",
+        link: "/handbook/vue/chapter_12",
       },
     ],
   },
