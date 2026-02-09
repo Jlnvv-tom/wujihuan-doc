@@ -133,6 +133,46 @@ export const golangSidebar = [
         text: " 第12章、并发编程基石——goroutine与channel",
         link: "/handbook/golang/chapter_12",
       },
+      {
+        text: " 第13章、深入并发模型——select、同步与常见模式",
+        link: "/handbook/golang/chapter_13",
+      },
+      {
+        text: " 第14章、包管理与模块化开发——组织大型项目",
+        link: "/handbook/golang/chapter_14",
+      },
+      {
+        text: " 第15章、标准库精讲（一）——fmt、os、io、bufio",
+        link: "/handbook/golang/chapter_15",
+      },
+      {
+        text: " 第16章、标准库精讲（二）——net/http、json、time",
+        link: "/handbook/golang/chapter_16",
+      },
+      {
+        text: " 第17章、反射与泛型编程——运行时能力与代码复用",
+        link: "/handbook/golang/chapter_17",
+      },
+      {
+        text: " 第18章、测试与性能调优——unit test与benchmark",
+        link: "/handbook/golang/chapter_18",
+      },
+      {
+        text: " 第19章、Go语言工具链与工程实践",
+        link: "/handbook/golang/chapter_19",
+      },
+      {
+        text: " 第20章、Web服务实战——构建RESTful API",
+        link: "/handbook/golang/chapter_20",
+      },
+      {
+        text: " 第21章、微服务与分布式架构中的Go应用",
+        link: "/handbook/golang/chapter_21",
+      },
+      {
+        text: " 第22章、并发编程基石——goroutine与channel",
+        link: "/handbook/golang/chapter_22",
+      },
     ],
   },
 ];

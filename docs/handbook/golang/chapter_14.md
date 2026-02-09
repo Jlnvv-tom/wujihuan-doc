@@ -2,10 +2,6 @@
 
 在Golang开发中，从小脚本到大型分布式应用，最核心的转变之一就是「代码组织与依赖管理」。早期的GOPATH模式曾因依赖混乱、版本冲突等问题让开发者诟病，而Go 1.11正式推出的Go Modules，彻底解决了这一痛点，成为目前Golang大型项目的标准模块化方案。
 
-本章将从基础的「包」概念入手，逐步拆解Go模块化开发的全流程，涵盖包的作用、导入规则、公私访问控制，再到Go Modules的依赖配置、版本管理、模块发布，最后给出大型项目的标准结构示例，全程配套**简短可运行代码**、核心要点梳理，标注官方及掘金优质资源链接，完全适配掘金博客“实用、易懂、直击痛点”的写作风格，帮你快速掌握大型Golang项目的组织技巧。
-
-提示：所有代码示例均经过简化（单文件核心代码），可直接复制运行；核心知识点用加粗、列表、表格突出，降低阅读成本；链接均为官方权威文档或掘金实战好文，方便深入拓展学习。
-
 ## 一、包的作用
 
 包（Package）是Golang中**组织代码的最小单元**，本质是将功能相关的.go文件聚合在一起，实现“模块化拆分、代码复用、作用域隔离”，类比Java的Package、Python的Module，是大型项目分层、协作开发的基础。
@@ -162,8 +158,6 @@ func main() {
 
 - Go官方文档（导入规则）：[Import declarations](https://go.dev/ref/spec#Import_declarations)
 
-- 掘金优质文（导入避坑）：[Go import 导入语法与常见坑](https://juejin.cn/post/7025003854533640205)
-
 ## 三、私有公有
 
 Go中没有专门的关键字（如public、private）来定义私有/公有，而是通过**标识符首字母大小写**来区分，这是Go简洁设计的体现，规则极其简单，记住一句话即可：**首字母大写=公有（可被其他包导入使用），首字母小写=私有（只能在当前包内使用）**。
@@ -266,8 +260,6 @@ fmt.Println(utils.GetPrivateData()) // 输出：我是私有函数，外部包�
 
 - Go官方文档（标识符可见性）：[Exported identifiers](https://go.dev/ref/spec#Exported_identifiers)
 
-- 掘金优质文（私有公有详解）：[Go 私有与公有标识符：一篇搞懂可见性规则](https://juejin.cn/post/6844903903269253134)
-
 ## 四、Go Modules
 
 Go Modules（简称mod）是Go 1.11推出、Go 1.16强制启用的**模块化包管理工具**，核心目标是解决早期GOPATH模式的痛点（依赖混乱、版本冲突、无法跨环境复用），目前是Golang大型项目的标准包管理方案。
@@ -346,8 +338,6 @@ r.Run()
 ### 4.5 参考链接
 
 - Go官方文档（Go Modules详解）：[Go Modules Reference](https://go.dev/ref/mod)
-
-- 掘金优质文（Go Modules实战）：[Go Modules 从入门到精通：实战避坑指南](https://juejin.cn/post/7026003854600009742)
 
 ## 五、版本管理
 
@@ -434,8 +424,6 @@ require github.com/gin-gonic/gin/v2 v2.0.0
 ### 5.5 参考链接
 
 - Go官方文档（版本管理）：[Module versions](https://go.dev/ref/mod#versions)
-
-- 掘金优质文（版本管理实战）：[Go Modules 版本管理：语义化版本与实战技巧](https://juejin.cn/post/7030003854700010002)
 
 ## 六、依赖配置
 
@@ -542,8 +530,6 @@ exclude github.com/go-sql-driver/mysql v1.7.0
 
 - Go官方文档（go.mod配置）：[The go.mod file](https://go.dev/ref/mod#go-mod-file)
 
-- 掘金优质文（go.mod实战）：[go.mod 配置详解：依赖管理全攻略](https://juejin.cn/post/7032003854800010202)
-
 ## 七、模块发布
 
 模块发布的核心是“将你的Go Modules模块，发布到远程代码仓库（如GitHub、GitLab），供其他项目导入使用”，发布流程简单，核心是“遵循语义化版本+打标签”，全程无需额外工具，只需使用Git命令即可完成。
@@ -626,8 +612,6 @@ git push origin v2.0.0`
 ### 7.4 参考链接
 
 - Go官方文档（模块发布）：[Publishing a module](https://go.dev/doc/modules/publishing)
-
-- 掘金优质文（模块发布实战）：[Go Modules 模块发布与版本更新实战](https://juejin.cn/post/7035003854900010502)
 
 ## 八、项目结构
 
@@ -721,4 +705,4 @@ your-project/                  # 项目根目录（Go Modules模块，执行go m
 
 ### 8.4 参考链接
 
-Go官方文档（项目结构建议）：[Code organization](https://go.dev/doc/code#Organization)掘金优质文（大型Go项目结构实战）：[Golang 大型项目结构设计：从入门到落地](https://juejin.cn/post/7040003855000010802)
+Go官方文档（项目结构建议）：[Code organization](https://go.dev/doc/code#Organization)
