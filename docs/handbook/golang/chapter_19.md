@@ -123,9 +123,7 @@ ls $(go env GOCACHE)/pkg/mod/cache/download/ # 查看缓存的依赖包
 
 ### 1.5 图例辅助理解
 
-`go build` 的核心流程（从源代码到可执行文件），可简化为以下图例：
-
-![Image](&resource_key=https://img.zhihu.com/xxx)
+`go build` 的核心流程（从源代码到可执行文件）
 
 引用来源：[Go官方文档 - go build 命令](https://pkg.go.dev/cmd/go#hdr-Compile_packages_and_dependencies)
 
@@ -273,7 +271,7 @@ go vet ./internal/...
 
 第三步：查看检查结果（`go vet` 会明确指出每个潜在问题的位置和原因）
 
-```plaintext
+```go
 # 检查结果示例（清晰标注问题位置和原因）
 # command-line-arguments
 ./vet_demo.go:14:2: x declared and not used // 变量x未使用
@@ -407,8 +405,8 @@ ls # 输出：go.mod
 
 生成的`go.mod` 文件内容（初始状态）：
 
-```plaintext
-module github.com/xxx/myapp
+```go
+// module github.com/xxx/myapp
 
 go 1.21 # 当前使用的Go版本（自动匹配本地Go版本）
 ```
@@ -442,7 +440,7 @@ ls # 输出：go.mod go.sum main.go
 
 更新后的`go.mod` 文件内容：
 
-```plaintext
+```go
 module github.com/xxx/myapp
 
 go 1.21
@@ -740,7 +738,7 @@ golangci-lint run --fix ./...
 
 执行`golangci-lint run` 后，会输出详细的检查结果，示例如下（包含问题类型、位置、原因）：
 
-```plaintext
+```go
 internal/calc/calc.go:10:6: unused variable: "x" (unused)
 internal/user/user.go:15:2: error returned by fmt.Errorf is not checked (errcheck)
 internal/main.go:20:8: imported and not used: "github.com/gin-gonic/gin" (unused-import)

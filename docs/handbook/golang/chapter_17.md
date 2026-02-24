@@ -110,8 +110,6 @@ func main() {
 
 reflect.Type 的核心作用的是“解析类型元信息”，其结构关系可简化为以下图例：
 
-![Image](&resource_key=https://img.zhihu.com/xxx)
-
 引用来源：[Go官方文档 - reflect.Type](https://pkg.go.dev/reflect#Type)
 
 ## 2. reflect.Value
@@ -205,8 +203,6 @@ func main() {
 ### 2.3 图例辅助理解
 
 reflect.Value 与变量、指针的关系，以及修改值的流程，可简化为以下图例：
-
-![Image](&resource_key=https://img.zhihu.com/xxx)
 
 引用来源：[Go官方文档 - reflect.Value](https://pkg.go.dev/reflect#Value)
 

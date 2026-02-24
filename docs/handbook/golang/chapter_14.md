@@ -59,8 +59,6 @@ func main() {
 
 - Go官方文档（包的基础概念）：[Organizing code with packages](https://go.dev/doc/code#Packages)
 
-- 掘金优质文（包的核心用法）：[Go 包（Package）详解：从基础到实战](https://juejin.cn/post/6844903902202802189)
-
 ## 二、导入规则
 
 导入（import）是Go中使用其他包的核心方式，本质是“引入其他包的公开功能”，支持多种导入语法，适用于不同场景（如标准库导入、自定义包导入、第三方包导入）。核心规则：导入路径必须能唯一定位到目标包，且导入后需通过「包名.功能名」调用。
@@ -596,7 +594,7 @@ go get github.com/yourname/myutil@v1.0.0
    git tag v1.0.1
    git push origin v1.0.1
 
-# 若有重大变更，升级主版本（如v2.0.0）
+若有重大变更，升级主版本（如v2.0.0）
 
 git tag v2.0.0
 git push origin v2.0.0`

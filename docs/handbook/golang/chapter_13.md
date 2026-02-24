@@ -118,8 +118,6 @@ func main() {
 
 - Go官方文档：[Select statements](https://go.dev/ref/spec#Select_statements)
 
-- 掘金优质文：[Go select 详解](https://juejin.cn/post/6844903903633440775)
-
 ## 二、超时控制
 
 并发开发中，超时控制是保障系统稳定性的关键——若某个goroutine执行过久（如网络请求超时、数据库查询超时），会导致资源泄露、系统阻塞。Go中无需第三方库，可通过 **select + time.After** 轻松实现超时控制，核心原理：time.After 会返回一个channel，指定时间后发送当前时间，select 监听该channel与业务channel，超时则执行超时分支。
@@ -252,8 +250,6 @@ func main() {
 
 - Go官方文档：[time.After](https://go.dev/pkg/time/#After)
 
-- 掘金优质文：[Go 超时控制最佳实践](https://juejin.cn/post/7023993854489331749)
-
 ## 三、心跳机制
 
 心跳机制是并发系统中“检测协程/服务存活状态”的核心手段，核心逻辑：**一方（客户端/子goroutine）定期向另一方（服务端/主goroutine）发送“心跳信号”**，接收方若在指定时间内未收到心跳，则判定对方异常，执行重启、告警等逻辑。Go中可通过 **select + time.Ticker** 实现高效心跳。
@@ -377,8 +373,6 @@ func main() {
 
 - Go官方文档：[time.Ticker](https://go.dev/pkg/time/#Ticker)
 
-- 掘金优质文：[Go 心跳机制实现与实践](https://juejin.cn/post/6894335268681961486)
-
 ## 四、扇入扇出（Fan In/Out）
 
 扇入扇出是Go并发编程中**提高任务处理效率**的核心模式，适用于“大量独立任务并行处理”场景（如批量数据处理、多接口并行调用）。
@@ -468,8 +462,6 @@ func main() {
 ### 4.4 参考链接
 
 - Go官方博客：[Go Pipelines and cancellation](https://go.dev/blog/pipelines)（扇入扇出核心参考）
-
-- 掘金优质文：[Go 扇入扇出模式实战](https://juejin.cn/post/6844903901808033800)
 
 ## 五、WaitGroup（同步等待组）
 
@@ -658,8 +650,6 @@ func main() {
 
 - Go官方文档：[sync.Mutex](https://go.dev/pkg/sync/#Mutex)
 
-- 掘金优质文：[Go Mutex 详解与避坑](https://juejin.cn/post/6844903902543136775)
-
 ## 七、Once单例（只执行一次）
 
 Once 是 sync 包提供的**单例工具**，核心作用：**保证某个函数在整个程序生命周期中，只被执行一次**，无论有多少个goroutine同时调用，适用于单例初始化、资源一次性加载等场景（替代了传统的双重检查锁，更简洁、安全）。
@@ -821,8 +811,6 @@ goroutine3：获取DB连接：mysql://user:pass@localhost:3306/db
 ### 7.5 参考链接
 
 - Go官方文档：[sync.Once](https://go.dev/pkg/sync/#Once)
-
-- 掘金优质文：[Go sync.Once 源码解析与实战](https://juejin.cn/post/6844903902875686926)
 
 ## 八、本章总结
 
