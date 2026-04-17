@@ -480,14 +480,14 @@ go mod tidy
 
 `go mod` 的命令较多，日常开发重点掌握以下6个高频命令，覆盖90%以上的使用场景：
 
-| 命令                   | 作用                                           | 实战示例                               |
-| ---------------------- | ---------------------------------------------- | -------------------------------------- |
-| go mod init <module>   | 初始化Go模块，生成go.mod文件                   | go mod init github.com/xxx/myapp       |
-| go mod download        | 下载go.mod中指定的所有依赖包                   | go mod download                        |
-| go mod tidy            | 同步依赖（删除未使用的依赖，下载缺失的依赖）   | go mod tidy                            |
-| go get <pkg>@<version> | 下载/更新指定依赖包到指定版本                  | go get github.com/gin-gonic/gin@v1.9.1 |
-| go mod vendor          | 将依赖包复制到项目的vendor目录（用于离线部署） | go mod vendor                          |
-| go mod verify          | 校验依赖包的完整性（防止被篡改）               | go mod verify                          |
+| 命令                              | 作用                                           | 实战示例                               |
+| --------------------------------- | ---------------------------------------------- | -------------------------------------- |
+| go mod init \<module\>            | 初始化Go模块，生成go.mod文件                   | go mod init github.com/xxx/myapp       |
+| go mod download                   | 下载go.mod中指定的所有依赖包                   | go mod download                        |
+| go mod tidy                       | 同步依赖（删除未使用的依赖，下载缺失的依赖）   | go mod tidy                            |
+| go get \<pkg\> @\<version\>        | 下载/更新指定依赖包到指定版本                  | go get github.com/gin-gonic/gin@v1.9.1 |
+| go mod vendor                     | 将依赖包复制到项目的vendor目录（用于离线部署） | go mod vendor                          |
+| go mod verify                     | 校验依赖包的完整性（防止被篡改）               | go mod verify                          |
 
 ### 4.3 实战技巧（避坑指南）
 
@@ -504,8 +504,6 @@ go mod tidy
 ### 4.4 图例辅助理解
 
 `go mod` 的核心工作流程（依赖管理全流程），可简化为以下图例：
-
-![Image](&resource_key=https://img.zhihu.com/xxx)
 
 引用来源：[Go官方文档 - go mod 命令](https://pkg.go.dev/cmd/go#hdr-Module_maintenance)
 

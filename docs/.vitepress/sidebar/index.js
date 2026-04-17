@@ -14,6 +14,7 @@ import {
   golangSidebar,
   pythonSidebar,
   mysqlSidebar,
+  langchainSidebar,
 } from "./handbook";
 
 const mySideBar = {
@@ -32,6 +33,7 @@ const mySideBar = {
   "/handbook/css3/": css3Sidebar,
   "/handbook/axios/": axiosSidebar,
   "/handbook/vue/": vueSidebar,
+  "/handbook/langchain/": langchainSidebar,
   "/english/": englishSidebar,
 };
 

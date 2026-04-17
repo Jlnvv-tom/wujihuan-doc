@@ -465,3 +465,105 @@ export const vueSidebar = [
     ],
   },
 ];
+
+//#region LangChain
+export const langchainSidebar = [
+  {
+    text: "LangChain学习",
+    items: [
+      {
+        text: "LangChain学习",
+        link: "/handbook/langchain/",
+      },
+      {
+        text: "第1章、初识 LangChain：大模型时代的开发脚手架",
+        link: "/handbook/langchain/chapter_1",
+      },
+      {
+        text: "第2章、开发环境搭建与基础配置",
+        link: "/handbook/langchain/chapter_2",
+      },
+      {
+        text: "第3章、LangChain 核心抽象：Models 与 Messages",
+        link: "/handbook/langchain/chapter_3",
+      },
+      {
+        text: "第4章、提示工程基础：Prompt Templates",
+        link: "/handbook/langchain/chapter_4",
+      },
+      {
+        text: "第5章、输出解析：让模型返回结构化数据",
+        link: "/handbook/langchain/chapter_5",
+      },
+      {
+        text: "第6章、链（Chains）：构建可组合的工作流",
+        link: "/handbook/langchain/chapter_6",
+      },
+      {
+        text: "第7章、文档加载与文本分割",
+        link: "/handbook/langchain/chapter_7",
+      },
+      {
+        text: "第8章、向量嵌入与语义表示（LangChain实战）",
+        link: "/handbook/langchain/chapter_8",
+      },
+      {
+        text: "第9章、向量数据库集成（LangChain实战）",
+        link: "/handbook/langchain/chapter_9",
+      },
+      {
+        text: "第10章、RAG（检索增强生成）系统构建（LangChain实战）",
+        link: "/handbook/langchain/chapter_10",
+      },
+      {
+        text: "第11章、内存机制：让模型记住对话历史（LangChain实战）",
+        link: "/handbook/langchain/chapter_11",
+      },
+      {
+        text: "第12章、工具（Tools）与函数调用（LangChain实战）",
+        link: "/handbook/langchain/chapter_12",
+      },
+      {
+        text: "第13章、智能体（Agents）基础（LangChain 实战）",
+        link: "/handbook/langchain/chapter_13",
+      },
+      {
+        text: "第14章、高级 Agent：LangGraph 与状态机",
+        link: "/handbook/langchain/chapter_14",
+      },
+      {
+        text: "第15章、回调机制与可观测性",
+        link: "/handbook/langchain/chapter_15",
+      },
+      {
+        text: "第16章、错误处理与鲁棒性设计",
+        link: "/handbook/langchain/chapter_16",
+      },
+      {
+        text: "第17章、缓存与性能优化",
+        link: "/handbook/langchain/chapter_17",
+      },
+      {
+        text: "第18章、多模态与非文本数据处理",
+        link: "/handbook/langchain/chapter_18",
+      },
+      {
+        text: "第19章、应用模板与参考架构",
+        link: "/handbook/langchain/chapter_19",
+      },
+      {
+        text: "第20章、LangServe：部署为 REST API",
+        link: "/handbook/langchain/chapter_20",
+      },
+      {
+        text: "第21章、LangSmith：调试、测试与评估",
+        link: "/handbook/langchain/chapter_21",
+      },
+      {
+        text: "第22章、项目实战：端到端企业知识助手",
+        link: "/handbook/langchain/chapter_22",
+      },
+    ],
+  },
+];
+//#endregion

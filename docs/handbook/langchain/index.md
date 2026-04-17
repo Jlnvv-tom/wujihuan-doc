@@ -1,233 +1,229 @@
-Langchain 应用开发实践 - 完整目录
-
-第一部分 基础认知：走进 Langchain 世界
-
-第 1 章 大模型时代与 Langchain 崛起
-
-1.1 大模型应用开发的痛点与挑战
-
-1.2 Langchain 的核心定位与价值主张
-
-1.3 Langchain 的发展历程与生态现状
-
-1.4 主流大模型开发框架对比（Langchain vs LlamaIndex vs ChatGLM 开发套件）
-
-1.5 Langchain 适用场景与学习前提
-
-1.6 本章小结与学习资源推荐
-
-第 2 章 Langchain 环境搭建与入门实践
-
-2.1 开发环境准备（Python 版本要求、依赖安装）
-
-2.2 Langchain 核心包安装与版本管理
-
-2.3 第一个 Langchain 应用：简单对话机器人实现
-
-2.4 Langchain 配置文件详解与环境变量设置
-
-2.5 开发工具推荐（IDE 配置、调试技巧）
-
-2.6 常见环境问题排查与解决方案
-
-第二部分 核心组件：Langchain 基础模块深度解析
-
-第 3 章 模型集成：Langchain 与大模型的桥梁
-
-3.1 模型集成的核心概念与架构设计
-
-3.2 主流大模型接入实战（OpenAI、Claude、通义千问、文心一言）
-
-3.3 模型调用参数详解（温度、最大 tokens、top_p 等）
-
-3.4 模型缓存机制与性能优化
-
-3.5 本地大模型集成实践（Llama 2、Qwen 本地部署与对接）
-
-3.6 多模型协同调用策略与实现
-
-第 4 章 Prompt 工程与 Chains 链机制
-
-4.1 Prompt 基础：结构、原则与设计技巧
-
-4.2 Langchain PromptTemplate 详解与使用
-
-4.3 动态 Prompt 生成与变量替换实践
-
-4.4 Chains 核心概念：从简单链到复杂链
-
-4.5 常用基础链实现（LLMChain、SimpleSequentialChain 等）
-
-4.6 链的调试与日志记录方法
-
-第 5 章 数据连接：文档加载与处理模块
-
-5.1 数据连接的核心价值：让大模型“读懂”私有数据
-
-5.2 主流文档格式加载实践（PDF、Word、Markdown、Excel）
-
-5.3 文档分割策略与实现（RecursiveCharacterTextSplitter 等）
-
-5.4 文本清洗与预处理工具使用
-
-5.5 网络数据爬取与接入（网页、API 数据）
-
-5.6 大文件处理性能优化与内存管理
-
-第 6 章 向量存储与检索增强（RAG 核心）
-
-6.1 向量存储基础：Embedding 模型与向量数据库
-
-6.2 Langchain Embedding 集成实践（OpenAI Embeddings、本地化 Embedding）
-
-6.3 主流向量数据库对接（Pinecone、Chroma、Milvus、FAISS）
-
-6.4 向量存储的增删改查操作实现
-
-6.5 检索策略优化（相似性检索、混合检索）
-
-6.6 RAG 架构核心流程与 Langchain 实现要点
-
-第 7 章 Agents 智能体：让大模型自主决策
-
-7.1 Agents 核心概念：从指令执行到自主规划
-
-7.2 Langchain Agents 架构与核心组件
-
-7.3 常用工具集成实践（搜索工具、计算工具、文件工具）
-
-7.4 智能体决策逻辑与提示词设计
-
-7.5 自定义 Agent 开发步骤与实践
-
-7.6 Agents 常见问题（循环执行、错误决策）解决方案
-
-第 8 章 记忆模块：让大模型拥有“长期记忆”
-
-8.1 记忆模块的核心作用与应用场景
-
-Langchain 记忆类型详解（ConversationBufferMemory、ConversationSummaryMemory 等）
-
-8.3 对话记忆的持久化存储（数据库对接）
-
-8.4 长对话场景下的记忆优化策略
-
-8.5 记忆模块与 Chains/Agents 集成实践
-
-8.6 记忆模块性能测试与调优
-
-第三部分 实践开发：从基础应用到企业级项目
-
-第 9 章 基础应用开发：对话机器人进阶
-
-9.1 多轮对话机器人开发与优化
-
-9.2 对话意图识别与多场景切换
-
-9.3 对话历史管理与上下文理解增强
-
-9.4 机器人个性化配置（角色设定、语气调整）
-
-9.5 对话机器人部署与测试（本地部署、API 封装）
-
-9.6 案例：智能客服机器人最小可行产品（MVP）实现
-
-第 10 章 RAG 实战：私有文档问答系统开发
-
-10.1 RAG 系统开发全流程梳理
-
-10.2 文档知识库构建与管理
-
-10.3 检索增强问答核心逻辑实现
-
-10.4 问答效果评估与调优方法
-
-10.5 多源文档融合问答实践
-
-10.6 案例：企业内部知识库问答系统开发
-
-第 11 章 智能体实战：多工具协同应用开发
-
-11.1 智能体开发需求分析与场景拆解
-
-11.2 第三方工具集成规范与实践
-
-11.3 智能体任务规划与步骤拆解实现
-
-11.4 智能体错误处理与重试机制设计
-
-11.5 智能体监控与日志分析
-
-11.6 案例：自动数据分析与报告生成智能体
-
-第 12 章 企业级应用开发：安全性与可扩展性设计
-
-12.1 企业级应用架构设计原则
-
-12.2 接口安全设计（认证、授权、加密）
-
-12.3 数据安全与隐私保护实践
-
-12.4 应用可扩展性设计（微服务拆分、负载均衡）
-
-12.5 容器化部署与 Docker 实践
-
-12.6 案例：企业级 RAG 系统架构设计与实现
-
-第四部分 进阶拓展：Langchain 生态与前沿技术
-
-第 13 章 Langchain 生态工具深度应用
-
-13.1 LangSmith：开发、测试与监控平台使用
-
-13.2 LangServe：模型服务化部署工具实践
-
-13.3 LangChain Hub：Prompt 与链的共享与管理
-
-13.4 LangChain Expression Language (LCEL) 进阶
-
-13.5 生态周边工具集成（数据可视化、报告生成）
-
-13.6 生态工具组合应用案例：全流程开发与部署
-
-第 14 章 多模态应用开发与 Langchain 集成
-
-14.1 多模态大模型基础与应用场景
-
-14.2 Langchain 多模态模型集成实践（图像、语音）
-
-14.3 多模态数据处理与加载
-
-14.4 多模态对话机器人开发
-
-14.5 多模态 RAG 系统实现要点
-
-14.6 案例：图文结合的智能问答应用
-
-第 15 章 Langchain 性能优化与调优实践
-
-15.1 性能优化核心指标与评估方法
-
-15.2 模型调用性能优化（批量调用、异步处理）
-
-15.3 检索性能优化（向量数据库调优、索引设计）
-
-15.4 内存与资源占用优化
-
-15.5 高并发场景下的性能优化策略
-
-15.6 性能调优案例：从 10s 响应到 500ms 优化过程
-
-第 16 章 Langchain 未来趋势与进阶学习路径
-
-16.1 Langchain 技术发展趋势预测
-
-16.2 大模型应用开发前沿方向（Agent 进化、多智能体协作）
-
-16.3 Langchain 与其他技术融合（AIoT、区块链）
-
-16.4 进阶学习资源推荐（源码阅读、社区贡献）
-
-16.5 Langchain 项目实战进阶（开源项目二次开发）
-
-16.6 总结：从开发者到架构师的成长之路
+整本书采用“由浅入深、理论+实战、模块化递进”的思路，覆盖从环境搭建、核心组件、RAG 构建、Agent 开发到部署监控的全生命周期。每章标题清晰聚焦，每个小节内容具体、可操作、适合初学者和中级开发者。
+
+《深入浅出 LangChain 应用》全书目录
+
+第1章 初识 LangChain：大模型时代的开发脚手架  
+1.1 什么是 LangChain？为什么需要它？  
+1.2 LangChain 的发展历程与生态全景  
+1.3 LangChain 与其他框架对比（LlamaIndex、Haystack 等）  
+1.4 LangChain 的核心设计理念：“最后一公里”问题  
+1.5 Python 为何是 LangChain 的首选语言  
+1.6 官方文档与社区资源快速导航  
+1.7 本书学习路线与配套代码说明  
+1.8 动手体验：你的第一个 LangChain 程序
+
+第2章 开发环境搭建与基础配置  
+2.1 Python 环境准备（3.9+ 推荐）  
+2.2 安装 LangChain 及其核心包（langchain-core, langchain-community）  
+2.3 配置主流 LLM 的 API 密钥（OpenAI、DeepSeek、Qwen、Ollama）  
+2.4 使用 .env 文件管理敏感信息  
+2.5 虚拟环境与依赖隔离（venv / conda）  
+2.6 安装常用向量数据库（Chroma、FAISS、Pinecone）  
+2.7 Jupyter Notebook 与 VS Code 调试技巧  
+2.8 【实战】验证环境：调用本地/云端大模型
+
+第3章 LangChain 核心抽象：Models 与 Messages  
+3.1 LLM 与 ChatModel 的区别与适用场景  
+3.2 使用 OpenAI、Anthropic、Hugging Face 模型  
+3.3 本地部署模型集成（Llama.cpp、vLLM、Ollama）  
+3.4 消息类型详解：HumanMessage、AIMessage、SystemMessage  
+3.5 控制生成行为：temperature、max_tokens、stop sequences  
+3.6 流式输出（Streaming）实现与前端对接  
+3.7 异步调用（async/await）提升性能  
+3.8 【实战】构建多模型切换的问答接口
+
+第4章 提示工程基础：Prompt Templates  
+4.1 什么是提示模板？为何要模板化？  
+4.2 使用 PromptTemplate 构建静态提示  
+4.3 ChatPromptTemplate 与多轮对话结构  
+4.4 动态变量注入与格式化（f-string 替代方案）  
+4.5 少样本提示（Few-shot Prompting）模板设计  
+4.6 示例选择器（ExampleSelector）自动匹配上下文  
+4.7 提示模板的序列化与版本管理  
+4.8 【实战】构建可复用的客服话术模板库
+
+第5章 输出解析：让模型返回结构化数据  
+5.1 为什么需要 OutputParser？  
+5.2 ListOutputParser 与 CommaSeparatedListOutputParser  
+5.3 JSONOutputParser 解析复杂对象  
+5.4 PydanticOutputParser：强类型数据校验  
+5.5 自定义 OutputParser 实现特殊格式  
+5.6 RetryOutputParser 自动修复格式错误  
+5.7 结合 LLM 调用链自动解析  
+5.8 【实战】从自由文本中提取订单信息（JSON Schema）
+
+第6章 链（Chains）：构建可组合的工作流  
+6.1 什么是 Chain？链式思维的核心  
+6.2 LLMChain：最简单的调用链  
+6.3 SequentialChain：多步骤串行处理  
+6.4 TransformChain：数据预处理与后处理  
+6.5 RouterChain：条件分支与动态路由  
+6.6 使用 LCEL（LangChain Expression Language）重写链  
+6.7 链的嵌套与复用技巧  
+6.8 【实战】构建“翻译 → 总结 → 情感分析”三步链
+
+第7章 文档加载与文本分割  
+7.1 支持的文档格式（PDF、Word、HTML、Markdown 等）  
+7.2 使用 Unstructured、PyPDF、Docx2txt 加载器  
+7.3 自定义 Document Loader 开发  
+7.4 文本分割策略：CharacterTextSplitter vs RecursiveCharacterTextSplitter  
+7.5 按语义边界分割（基于句子、段落）  
+7.6 处理代码文件与表格数据  
+7.7 元数据注入：保留来源、页码、章节信息  
+7.8 【实战】批量加载公司制度文档并切块
+
+第8章 向量嵌入与语义表示  
+8.1 什么是 Embedding？为何用于检索？  
+8.2 使用 OpenAI、Hugging Face、Sentence-Transformers 生成嵌入  
+8.3 本地嵌入模型部署（BGE、text2vec）  
+8.4 嵌入维度、距离度量（余弦相似度）  
+8.5 缓存嵌入结果避免重复计算  
+8.6 批量嵌入与性能优化  
+8.7 嵌入质量评估方法  
+8.8 【实战】为技术文档生成高质量向量表示
+
+第9章 向量数据库集成  
+9.1 向量数据库选型指南（Chroma、FAISS、Pinecone、Milvus）  
+9.2 Chroma 快速上手：内存模式 vs 持久化  
+9.3 FAISS 本地高效检索  
+9.4 Pinecone 云服务配置与使用  
+9.5 向量存储的元数据过滤（metadata filtering）  
+9.6 相似性搜索 vs MMR（最大边际相关性）  
+9.7 更新、删除与增量索引  
+9.8 【实战】构建可搜索的个人知识库
+
+第10章 RAG（检索增强生成）系统构建  
+10.1 RAG 原理与典型架构  
+10.2 使用 RetrievalQAChain 快速搭建问答系统  
+10.3 自定义检索器（Retriever）逻辑  
+10.4 多路召回与重排序（Re-ranking）  
+10.5 查询扩展与 HyDE 技术  
+10.6 处理长文档：分块策略优化  
+10.7 RAG 效果评估指标（召回率、准确率）  
+10.8 【实战】基于公司年报的智能问答机器人
+
+第11章 内存机制：让模型记住对话历史  
+11.1 为什么需要 Memory？  
+11.2 ConversationBufferMemory：简单缓存  
+11.3 ConversationSummaryMemory：摘要压缩  
+11.4 EntityMemory：提取并记忆关键实体  
+11.5 VectorStoreRetrieverMemory：基于向量的记忆  
+11.6 自定义 Memory 类实现业务逻辑  
+11.7 在 Chain 和 Agent 中集成 Memory  
+11.8 【实战】构建能记住用户偏好的客服助手
+
+第12章 工具（Tools）与函数调用  
+12.1 什么是 Tool？LangChain 中的工具抽象  
+12.2 内置工具：搜索引擎、计算器、时间查询  
+12.3 自定义 Python 函数转为 Tool  
+12.4 使用 Pydantic 定义工具输入输出  
+12.5 工具描述（description）的重要性  
+12.6 多工具注册与动态选择  
+12.7 工具调用的安全与权限控制  
+12.8 【实战】开发“查天气 + 算行程时间”复合工具
+
+第13章 智能体（Agents）基础  
+13.1 Agent 是什么？LLM 作为“大脑”  
+13.2 Agent 的工作流程：思考 → 选择工具 → 执行 → 反思  
+13.3 支持的 Agent 类型（Zero-shot ReAct、Self-ask 等）  
+13.4 使用 initialize_agent 快速创建 Agent  
+13.5 Agent 的停止条件与循环防护  
+13.6 日志与中间步骤可视化  
+13.7 Agent 的局限性与失败案例分析  
+13.8 【实战】构建能查股票、算收益的金融助理
+
+第14章 高级 Agent：LangGraph 与状态机  
+14.1 为什么需要 LangGraph？  
+14.2 状态（State）与节点（Node）概念  
+14.3 构建有向无环图（DAG）工作流  
+14.4 条件边（Conditional Edges）实现决策分支  
+14.5 多 Agent 协作架构  
+14.6 循环与迭代控制（如 Plan-and-Execute）  
+14.7 可视化 Graph 执行路径  
+14.8 【实战】实现“调研 → 撰写 → 校对”写作 Agent
+
+第15章 回调机制与可观测性  
+15.1 CallbackHandler 的作用  
+15.2 内置回调：日志记录、token 统计、流式输出  
+15.3 自定义回调：上报监控系统（Prometheus、Datadog）  
+15.4 异步回调与性能影响  
+15.5 使用 LangSmith 追踪链执行  
+15.6 错误回调与异常处理  
+15.7 回调链的组合与优先级  
+15.8 【实战】构建带审计日志的企业级应用
+
+第16章 错误处理与鲁棒性设计  
+16.1 常见错误类型（API 限流、超时、格式错误）  
+16.2 使用 Fallbacks 回退到备用模型  
+16.3 重试机制（Retry with Exponential Backoff）  
+16.4 输入长度截断与分块处理  
+16.5 输出验证与安全过滤  
+16.6 防止提示注入攻击（Prompt Injection）  
+16.7 服务降级策略  
+16.8 【实战】构建高可用的生产级问答服务
+
+第17章 缓存与性能优化  
+17.1 为什么需要缓存？  
+17.2 InMemoryCache 与 SQLiteCache  
+17.3 基于输入哈希的缓存键设计  
+17.4 缓存失效策略  
+17.5 向量检索结果缓存  
+17.6 异步批处理提升吞吐量  
+17.7 内存与磁盘缓存权衡  
+17.8 【实战】为高频查询接口添加缓存层
+
+第18章 多模态与非文本数据处理  
+18.1 LangChain 对图像、音频的支持现状  
+18.2 使用 CLIP 等模型生成图像嵌入  
+18.3 图像描述生成（Image Captioning）链  
+18.4 PDF 中表格与图像的提取  
+18.5 语音转文本集成（Whisper）  
+18.6 多模态 RAG 架构设计  
+18.7 局限性与未来方向  
+18.8 【实战】构建图文混合知识库问答
+
+第19章 应用模板与参考架构  
+19.1 官方 LangChain Templates 介绍  
+19.2 聊天机器人模板解析  
+19.3 文档问答模板解析  
+19.4 Agent 模板解析  
+19.5 如何修改模板适配业务  
+19.6 企业级架构分层建议（API 层、业务层、LLM 层）  
+19.7 安全与合规设计要点  
+19.8 【实战】基于模板快速部署客服系统
+
+第20章 LangServe：部署为 REST API  
+20.1 什么是 LangServe？  
+20.2 将 Chain 转换为 FastAPI 服务  
+20.3 自动生成 OpenAPI 文档与 Swagger UI  
+20.4 请求/响应格式标准化  
+20.5 并发与异步支持  
+20.6 Docker 容器化部署  
+20.7 与 Nginx、Kubernetes 集成  
+20.8 【实战】将 RAG 系统发布为微服务
+
+第21章 LangSmith：调试、测试与评估  
+21.1 LangSmith 平台功能概览  
+21.2 记录运行轨迹（Tracing）  
+21.3 创建测试数据集（Datasets）  
+21.4 自动化评估指标（Accuracy、Latency、Cost）  
+21.5 A/B 测试不同提示或模型  
+21.6 告警与监控配置  
+21.7 与 CI/CD 流程集成  
+21.8 【实战】优化一个问答链的准确率
+
+第22章 项目实战：端到端企业知识助手  
+22.1 需求分析：企业内部知识问答场景  
+22.2 技术选型：模型、向量库、部署方式  
+22.3 数据准备：清洗、切分、嵌入  
+22.4 核心功能开发：RAG + Memory + Agent  
+22.5 安全加固：认证、脱敏、审计  
+22.6 性能压测与优化  
+22.7 部署上线：LangServe + Docker + Nginx  
+22.8 运维与迭代：基于 LangSmith 持续改进
+
+说明：
+每章 8 小节，共 176 个具体知识点，全部可实操。
+覆盖 LangChain 最新生态（LangGraph、LangServe、LangSmith）。
+强调 安全、性能、可观测性 等生产级要素。
+每章结尾设【实战】小节，强化动手能力。

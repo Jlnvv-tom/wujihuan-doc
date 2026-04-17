@@ -138,8 +138,6 @@ FAIL    your/package/path/calc    0.001s
 
 Go单元测试的核心流程（从编码到执行），可简化为以下图例：
 
-![Image](&resource_key=https://img.zhihu.com/xxx)
-
 引用来源：[Go官方文档 - testing.T](https://pkg.go.dev/testing#T)
 
 ## 2. 表驱动测试
@@ -592,8 +590,6 @@ func BenchmarkAdd(b *testing.B) {
 ### 4.5 图例辅助理解
 
 Go性能测试的核心流程与指标解读，可简化为以下图例：
-
-![Image](&resource_key=https://img.zhihu.com/xxx)
 
 引用来源：[Go官方文档 - testing.B](https://pkg.go.dev/testing#B)
 
