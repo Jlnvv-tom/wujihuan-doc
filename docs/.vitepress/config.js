@@ -2,6 +2,8 @@ import myNav from "./nav.js";
 import mySidebar from "./sidebar/index.js";
 import { MermaidPlugin } from "./plugins/mermaid-plugin.js";
 import { MermaidMarkdown } from "./plugins/mermaid-markdown.js";
+import { MarkdownItSanitizer ,MarkdownItAttrs, MarkdownItContainer} from "./plugins/markdown-it-plugin.js";
+import { rehypeErrorRecovery } from "./plugins/rehype-error-recovery.js";
 
 export default {
   title: "WThinking",
@@ -45,8 +47,12 @@ export default {
   },
   markdown: {
     lineNumbers: true,
+    rehypePlugins: [rehypeErrorRecovery],
     config: (md, pluginOptions) => {
       // MermaidMarkdown(md, pluginOptions);
+      MarkdownItSanitizer(md, pluginOptions);
+      MarkdownItAttrs(md, pluginOptions);
+      MarkdownItContainer(md, pluginOptions);
     },
   },
   vite: {

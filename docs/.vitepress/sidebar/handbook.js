@@ -412,8 +412,12 @@ export const axiosSidebar = [
 
 export const vueSidebar = [
   {
-    text: "vue学习",
+    text: "Vue学习",
     items: [
+      {
+        text: "Vue学习",
+        link: "/handbook/vue/",
+      },
       {
         text: "第1章、Vue.js基础架构与核心概念",
         link: "/handbook/vue/chapter_1",
