@@ -628,7 +628,7 @@ func main() {
 
 类型约束的核心作用是“限制类型范围”，其与泛型的关系可简化为以下图例：
 
-![Image](&resource_key=https://img.zhihu.com/xxx)
+
 
 引用来源：[Go官方约束库 - constraints](https://pkg.go.dev/golang.org/x/exp/constraints)
 
