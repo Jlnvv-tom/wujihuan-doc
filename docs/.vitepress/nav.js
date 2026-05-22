@@ -29,6 +29,7 @@ const myNav = [
       {
         text: "前端知识",
         items: [
+          { text: "Electron", link: "/handbook/electron/" },
           { text: "React.js", link: "/handbook/react/" },
           { text: "Vue.js", link: "/handbook/vue/" },
           { text: "Node.js", link: "/handbook/node/index.md" },

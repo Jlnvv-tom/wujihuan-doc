@@ -15,6 +15,7 @@ import {
   pythonSidebar,
   mysqlSidebar,
   langchainSidebar,
+  electronSidebar,
 } from "./handbook";
 
 const mySideBar = {
@@ -34,6 +35,7 @@ const mySideBar = {
   "/handbook/axios/": axiosSidebar,
   "/handbook/vue/": vueSidebar,
   "/handbook/langchain/": langchainSidebar,
+  "/handbook/electron/": electronSidebar,
   "/english/": englishSidebar,
 };
 

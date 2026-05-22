@@ -571,3 +571,78 @@ export const langchainSidebar = [
   },
 ];
 //#endregion
+
+
+//#region Electron
+export const electronSidebar = [
+  {
+    text: "Electron学习",
+    items: [
+      {
+        text: "第1章、从零入门核心基础与环境搭建",
+        link: "/handbook/electron/chapter_1",
+      },
+      {
+        text: "第2章、核心概念深度详解——进程通信+窗口高级+生命周期全掌握",
+        link: "/handbook/electron/chapter_2",
+      },
+      {
+        text: "第3章、基础UI开发与布局全解",
+        link: "/handbook/electron/chapter_3",
+      },
+      {
+        text: "第4章、深入进程通信 IPC 全解（安全通信+多窗口互通）",
+        link: "/handbook/electron/chapter_4",
+      },
+      {
+        text: "第5章、文件系统与本地数据持久化全解",
+        link: "/handbook/electron/chapter_5",
+      },
+      {
+        text: "第6章、系统交互与原生功能实战全解",
+        link: "/handbook/electron/chapter_6",
+      },
+      {
+        text: "第7章、网络通信与 API 集成全解",
+        link: "/handbook/electron/chapter_7",
+      },
+      {
+        text: "第8章、多媒体处理全解｜音视频播放、录屏、FFmpeg 实战",
+        link: "/handbook/electron/chapter_8",
+      },
+      {
+        text: "第9章、调试技巧与开发者工具｜测试、性能分析、日志追踪全解",
+        link: "/handbook/electron/chapter_9",
+      },
+      {
+        text: "第10章、应用打包与分发｜全平台打包、签名、自定义协议实战",
+        link: "/handbook/electron/chapter_10",
+      },
+      {
+        text: "第11章、自动更新机制｜服务架构、公私网更新、版本回滚全解",
+        link: "/handbook/electron/chapter_11",
+      },
+      {
+        text: "第12章、安全性最佳实践｜彻底杜绝漏洞、代码执行与数据泄露",
+        link: "/handbook/electron/chapter_12",
+      },
+      {
+        text: "第13章、性能优化策略｜极速启动、低内存、流畅渲染、极致瘦身",
+        link: "/handbook/electron/chapter_13",
+      },
+      {
+        text: "第14章、实战项目｜从零搭建轻量化桌面代码编辑器",
+        link: "/handbook/electron/chapter_14",
+      },
+      {
+        text: "第15章、实战项目｜从零搭建桌面即时通讯（IM）应用",
+        link: "/handbook/electron/chapter_15",
+      },
+      {
+        text: "第16章、总结与展望｜生态现状、框架对比、行业趋势与学习指南",
+        link: "/handbook/electron/chapter_16",
+      },
+    ],
+  },
+];
+//#endregion
