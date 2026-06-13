@@ -80,6 +80,84 @@ export const fastapiSidebar = [
 ];
 //#endregion
 
+//#region AI Agent
+export const aiAgentSidebar = [
+  {
+    text: "AI Agent学习",
+    items: [
+      {
+        text: "AI Agent学习",
+        link: "/handbook/ai-agent/",
+      },
+      {
+        text: "第1章、AI Agent概览：开启智能体时代",
+        link: "/handbook/ai-agent/chapter_1",
+      },
+      {
+        text: "第2章、核心技术栈：大语言模型与Prompt工程",
+        link: "/handbook/ai-agent/chapter_2",
+      },
+      {
+        text: "第3章、记忆系统：构建Agent的长期与短期记忆",
+        link: "/handbook/ai-agent/chapter_3",
+      },
+      {
+        text: "第4章、规划与推理：赋予Agent思考的能力",
+        link: "/handbook/ai-agent/chapter_4",
+      },
+      {
+        text: "第5章、工具使用：连接外部世界的桥梁",
+        link: "/handbook/ai-agent/chapter_5",
+      },
+      {
+        text: "第6章、多智能体协作：从单兵作战到群体智能",
+        link: "/handbook/ai-agent/chapter_6",
+      },
+      {
+        text: "第7章、检索增强生成：打造知识库驱动型Agent",
+        link: "/handbook/ai-agent/chapter_7",
+      },
+      {
+        text: "第8章、Agent前端交互与可视化",
+        link: "/handbook/ai-agent/chapter_8",
+      },
+      {
+        text: "第9章、实战项目一：智能数据分析Agent",
+        link: "/handbook/ai-agent/chapter_9",
+      },
+      {
+        text: "第10章、实战项目二：自动化研发运维Agent",
+        link: "/handbook/ai-agent/chapter_10",
+      },
+      {
+        text: "第11章、实战项目三：个性化教育辅导Agent",
+        link: "/handbook/ai-agent/chapter_11",
+      },
+      {
+        text: "第12章、实战项目四：电商销售与服务Agent",
+        link: "/handbook/ai-agent/chapter_12",
+      },
+      {
+        text: "第13章、评估与评测：如何衡量Agent的好坏",
+        link: "/handbook/ai-agent/chapter_13",
+      },
+      {
+        text: "第14章、性能优化与成本控制",
+        link: "/handbook/ai-agent/chapter_14",
+      },
+      {
+        text: "第15章、安全、伦理与合规",
+        link: "/handbook/ai-agent/chapter_15",
+      },
+      {
+        text: "第16章、未来展望：通往 AGI 之路",
+        link: "/handbook/ai-agent/chapter_16",
+      },
+    ],
+  },
+];
+//#endregion
+
 //#region GoLang
 export const golangSidebar = [
   {

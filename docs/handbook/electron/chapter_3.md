@@ -371,8 +371,3 @@ mainWindow.once('ready-to-show', () => {
 
 \[3\] Electron 官方文档：主题切换nativeTheme [https://www\.electronjs\.org/zh/docs/latest/api/native\-theme](https://www.electronjs.org/zh/docs/latest/api/native-theme)
 
-\[4\] 掘金技术博文：Electron自定义标题栏商用方案 [https://juejin\.cn/post/7205222614889435192](https://juejin.cn/post/7205222614889435192)
-
-\[5\] 掘金技术博文：Electron\+React工程化实战 [https://juejin\.cn/post/7643128972365148197](https://juejin.cn/post/7643128972365148197)
-
-

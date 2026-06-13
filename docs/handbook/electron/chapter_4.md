@@ -351,6 +351,3 @@ IPC 通信是 Electron 进阶开发的分水岭，熟练掌握本章内容，即
 
 \[4\] Electron 官方安全规范：上下文隔离 [https://www\.electronjs\.org/zh/docs/latest/tutorial/context\-isolation](https://www.electronjs.org/zh/docs/latest/tutorial/context-isolation)
 
-\[5\] 掘金技术社区：Electron 多窗口通信实战方案 [https://juejin\.cn/post/7312568945214668584](https://juejin.cn/post/7312568945214668584)
-
-

@@ -16,6 +16,7 @@ const myNav = [
         items: [
           { text: "LangChain框架", link: "/handbook/langchain/" },
           { text: "FastAPI框架", link: "/handbook/fastapi/" },
+          { text: "AI Agent框架", link: "/handbook/ai-agent/" },
         ],
       },
       {

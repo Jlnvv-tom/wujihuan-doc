@@ -313,6 +313,4 @@ app.whenReady().then(() => {
 \[2\] 掘金精品教程：Electron 进程通信与安全实践 [https://juejin\.cn/post/7581664885861302282](https://juejin.cn/post/7581664885861302282)
 \[3\] 掘金实战：BrowserWindow 高级配置与自定义窗口 [https://juejin\.cn/post/7205222614889435192](https://juejin.cn/post/7205222614889435192)
 
-需要我继续为你写**第 3 章（文件操作、本地存储、系统信息获取）** 的实战文章吗？保持同样掘金风格 \+ 可运行代码 \+ 图解。
-
 
