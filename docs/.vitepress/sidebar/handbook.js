@@ -651,6 +651,64 @@ export const langchainSidebar = [
 //#endregion
 
 
+//#region CDP
+export const cdpSidebar = [
+  {
+    text: "CDP学习",
+    items: [
+      {
+        text: "第1章、迎接AI浏览器自动化的新范式",
+        link: "/handbook/cdp/chapter_1",
+      },
+      {
+        text: "第2章、协议基础：理解Domain、Method与Event",
+        link: "/handbook/cdp/chapter_2",
+      },
+      {
+        text: "第3章、页面与DOM深度操控",
+        link: "/handbook/cdp/chapter_3",
+      },
+      {
+        text: "第4章、网络层自动化：抓包与流量控制",
+        link: "/handbook/cdp/chapter_4",
+      },
+      {
+        text: "第5章、性能监控与自动化审计",
+        link: "/handbook/cdp/chapter_5",
+      },
+      {
+        text: "第6章、媒体与感知自动化",
+        link: "/handbook/cdp/chapter_6",
+      },
+      {
+        text: "第7章、AI赋能：智能内容识别与交互",
+        link: "/handbook/cdp/chapter_7",
+      },
+      {
+        text: "第8章、反检测与反反爬虫策略",
+        link: "/handbook/cdp/chapter_8",
+      },
+      {
+        text: "第9章、多浏览器上下文与移动端调试",
+        link: "/handbook/cdp/chapter_9",
+      },
+      {
+        text: "第10章、实战项目一：AI驱动的自动化测试平台",
+        link: "/handbook/cdp/chapter_10",
+      },
+      {
+        text: "第11章、实战项目二：高阶数据采集与RPA",
+        link: "/handbook/cdp/chapter_11",
+      },
+      {
+        text: "第12章、未来展望与生态整合",
+        link: "/handbook/cdp/chapter_12",
+      },
+    ],
+  },
+];
+//#endregion
+
 //#region Electron
 export const electronSidebar = [
   {

@@ -32,6 +32,7 @@ const myNav = [
         items: [
           { text: "Electron", link: "/handbook/electron/" },
           { text: "React.js", link: "/handbook/react/" },
+          { text: "CDP 浏览器协议", link: "/handbook/cdp/" },
           { text: "Vue.js", link: "/handbook/vue/" },
           { text: "Node.js", link: "/handbook/node/index.md" },
           { text: "HTML5", link: "/handbook/html5/" },

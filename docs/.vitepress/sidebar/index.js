@@ -17,6 +17,7 @@ import {
   langchainSidebar,
   electronSidebar,
   aiAgentSidebar,
+  cdpSidebar,
 } from "./handbook";
 
 const mySideBar = {
@@ -38,6 +39,7 @@ const mySideBar = {
   "/handbook/langchain/": langchainSidebar,
   "/handbook/electron/": electronSidebar,
   "/handbook/ai-agent/": aiAgentSidebar,
+  "/handbook/cdp/": cdpSidebar,
   "/english/": englishSidebar,
 };
 
