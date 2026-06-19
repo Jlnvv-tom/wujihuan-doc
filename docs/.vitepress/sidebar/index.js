@@ -14,9 +14,11 @@ import {
   golangSidebar,
   pythonSidebar,
   mysqlSidebar,
+  redisSidebar,
   langchainSidebar,
   electronSidebar,
   aiAgentSidebar,
+  aiSddSidebar,
   aiAgentRawSidebar,
   cdpSidebar,
 } from "./handbook";
@@ -40,9 +42,11 @@ const mySideBar = {
   "/handbook/langchain/": langchainSidebar,
   "/handbook/electron/": electronSidebar,
   "/handbook/ai-agent/": aiAgentSidebar,
+  "/handbook/ai-sdd/": aiSddSidebar,
   "/handbook/ai-agent-raw/": aiAgentRawSidebar,
   "/handbook/cdp/": cdpSidebar,
   "/english/": englishSidebar,
+  "/handbook/redis/": redisSidebar,
 };
 
 export default mySideBar;

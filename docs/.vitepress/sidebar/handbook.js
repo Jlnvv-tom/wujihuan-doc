@@ -1,3 +1,159 @@
+//#region Redis
+export const redisSidebar = [
+  {
+    text: "Redis学习",
+    items: [
+      {
+        text: "Redis 入门与实战",
+        link: "/handbook/redis/",
+      },
+      {
+        text: "第1章、走进Redis：从概念到价值",
+        link: "/handbook/redis/chapter_1",
+      },
+      {
+        text: "第2章、Redis环境搭建与基础操作",
+        link: "/handbook/redis/chapter_2",
+      },
+      {
+        text: "第3章、Redis核心数据结构基础：字符串与哈希",
+        link: "/handbook/redis/chapter_3",
+      },
+      {
+        text: "第4章、Redis核心数据结构进阶：列表、集合与有序集合",
+        link: "/handbook/redis/chapter_4",
+      },
+      {
+        text: "第5章、Redis高级数据结构：BitMap、HyperLogLog与Geospatial",
+        link: "/handbook/redis/chapter_5",
+      },
+      {
+        text: "第6章、Redis持久化机制：RDB与AOF",
+        link: "/handbook/redis/chapter_6",
+      },
+      {
+        text: "第7章、Redis内存管理与淘汰策略",
+        link: "/handbook/redis/chapter_7",
+      },
+      {
+        text: "第8章、Redis事务与锁机制",
+        link: "/handbook/redis/chapter_8",
+      },
+      {
+        text: "第9章、Redis缓存设计与实战",
+        link: "/handbook/redis/chapter_9",
+      },
+      {
+        text: "第10章、Redis分布式应用：会话共享与分布式计数器",
+        link: "/handbook/redis/chapter_10",
+      },
+      {
+        text: "第11章、Redis消息队列实现与应用",
+        link: "/handbook/redis/chapter_11",
+      },
+      {
+        text: "第12章、Redis与主流框架集成实战",
+        link: "/handbook/redis/chapter_12",
+      },
+      {
+        text: "第13章、Redis集群原理与搭建",
+        link: "/handbook/redis/chapter_13",
+      },
+      {
+        text: "第14章、Redis高可用架构：哨兵机制",
+        link: "/handbook/redis/chapter_14",
+      },
+      {
+        text: "第15章、Redis运维与监控实战",
+        link: "/handbook/redis/chapter_15",
+      },
+      {
+        text: "第16章、Redis高级优化与最佳实践",
+        link: "/handbook/redis/chapter_16",
+      },
+    ],
+  },
+];
+//#endregion
+
+//#region AI-SDD
+export const aiSddSidebar = [
+  {
+    text: "AI-SDD实战：从Vibe Coding到Harness",
+    items: [
+      {
+        text: "Vibe Coding 到 Harness × SDD 全栈开发实战",
+        link: "/handbook/ai-sdd/",
+      },
+      {
+        text: "第1章、AI 编程范式与 Vibe Coding 导论",
+        link: "/handbook/ai-sdd/chapter_1",
+      },
+      {
+        text: "第2章、AI 全栈开发工具链全景",
+        link: "/handbook/ai-sdd/chapter_2",
+      },
+      {
+        text: "第3章、开发环境准备：从零搭建全栈工程环境",
+        link: "/handbook/ai-sdd/chapter_3",
+      },
+      {
+        text: "第4章、Vibe Coding 快速实战：ChatBot 从 0 到 1",
+        link: "/handbook/ai-sdd/chapter_4",
+      },
+      {
+        text: "第5章、Codex 编程实战：智能问数据平台",
+        link: "/handbook/ai-sdd/chapter_5",
+      },
+      {
+        text: "第6章、Codex 编程实战：开源项目二次开发",
+        link: "/handbook/ai-sdd/chapter_6",
+      },
+      {
+        text: "第7章、Harness Engineering 驾驭工程",
+        link: "/handbook/ai-sdd/chapter_7",
+      },
+      {
+        text: "第8章、SDD 规范驱动开发",
+        link: "/handbook/ai-sdd/chapter_8",
+      },
+      {
+        text: "第9章、驾驭工程实操：核心能力深度演练",
+        link: "/handbook/ai-sdd/chapter_9",
+      },
+      {
+        text: "第10章、项目需求分析与工程初始化：SDD + Harness 实战启动",
+        link: "/handbook/ai-sdd/chapter_10",
+      },
+      {
+        text: "第11章、Prompt 工程在 SDD 中的核心地位",
+        link: "/handbook/ai-sdd/chapter_11",
+      },
+      {
+        text: "第12章、SDD + Harness 实战：首页与权限模块开发",
+        link: "/handbook/ai-sdd/chapter_12",
+      },
+      {
+        text: "第13章、SDD + Harness 实战：社交与景点模块开发",
+        link: "/handbook/ai-sdd/chapter_13",
+      },
+      {
+        text: "第14章、多智能体团队开发：Agent Teams 实战",
+        link: "/handbook/ai-sdd/chapter_14",
+      },
+      {
+        text: "第15章、项目能力扩展：MCP、CLI 与 AI Native 化",
+        link: "/handbook/ai-sdd/chapter_15",
+      },
+      {
+        text: "第16章、项目迭代优化与云端部署",
+        link: "/handbook/ai-sdd/chapter_16",
+      },
+    ],
+  },
+];
+//#endregion
+
 export const javascriptSidebar = [
   {
     text: "JavaScript学习",
