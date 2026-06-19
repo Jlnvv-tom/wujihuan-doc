@@ -651,6 +651,68 @@ export const langchainSidebar = [
 //#endregion
 
 
+//#region AI Agent Raw
+export const aiAgentRawSidebar = [
+  {
+    text: "AI Agent原生开发工作流实战",
+    items: [
+      {
+        text: "AI Agent原生开发工作流实战",
+        link: "/handbook/ai-agent-raw/",
+      },
+      {
+        text: "第1章、智能体时代：从大模型到AI Agent",
+        link: "/handbook/ai-agent-raw/chapter_1",
+      },
+      {
+        text: "第2章、大脑构建：提示词工程与思维链",
+        link: "/handbook/ai-agent-raw/chapter_2",
+      },
+      {
+        text: "第3章、记忆系统：构建Agent的长短期记忆",
+        link: "/handbook/ai-agent-raw/chapter_3",
+      },
+      {
+        text: "第4章、规划与推理：赋予Agent思考的能力",
+        link: "/handbook/ai-agent-raw/chapter_4",
+      },
+      {
+        text: "第5章、工具使用：连接外部世界的桥梁",
+        link: "/handbook/ai-agent-raw/chapter_5",
+      },
+      {
+        text: "第6章、检索增强生成：打造知识库驱动型Agent",
+        link: "/handbook/ai-agent-raw/chapter_6",
+      },
+      {
+        text: "第7章、多智能体协作：从单兵作战到群体智能",
+        link: "/handbook/ai-agent-raw/chapter_7",
+      },
+      {
+        text: "第8章、前端交互与可视化：构建Agent的用户界面",
+        link: "/handbook/ai-agent-raw/chapter_8",
+      },
+      {
+        text: "第9章、工程化落地：评估、优化与部署",
+        link: "/handbook/ai-agent-raw/chapter_9",
+      },
+      {
+        text: "第10章、实战项目一：智能数据分析Agent",
+        link: "/handbook/ai-agent-raw/chapter_10",
+      },
+      {
+        text: "第11章、实战项目二：自动化研发运维Agent",
+        link: "/handbook/ai-agent-raw/chapter_11",
+      },
+      {
+        text: "第12章、实战项目三：个性化教育辅导Agent",
+        link: "/handbook/ai-agent-raw/chapter_12",
+      },
+    ],
+  },
+];
+//#endregion
+
 //#region CDP
 export const cdpSidebar = [
   {

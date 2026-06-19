@@ -17,6 +17,7 @@ const myNav = [
           { text: "LangChain框架", link: "/handbook/langchain/" },
           { text: "FastAPI框架", link: "/handbook/fastapi/" },
           { text: "AI Agent框架", link: "/handbook/ai-agent/" },
+          { text: "AI Agent原生开发", link: "/handbook/ai-agent-raw/" },
         ],
       },
       {
