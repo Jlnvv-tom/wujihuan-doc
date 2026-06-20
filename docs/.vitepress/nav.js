@@ -12,16 +12,6 @@ const myNav = [
         ],
       },
       {
-        text: "AI 应用",
-        items: [
-          { text: "LangChain框架", link: "/handbook/langchain/" },
-          { text: "FastAPI框架", link: "/handbook/fastapi/" },
-          { text: "AI Agent框架", link: "/handbook/ai-agent/" },
-          { text: "AI Agent原生开发", link: "/handbook/ai-agent-raw/" },
-          { text: "AI SDD 全栈开发实战 ", link: "/handbook/ai-sdd/" },
-        ],
-      },
-      {
         text: "数据库",
         items: [
           { text: "MySQL", link: "/handbook/mysql/" },
@@ -34,9 +24,10 @@ const myNav = [
         items: [
           { text: "Electron", link: "/handbook/electron/" },
           { text: "React.js", link: "/handbook/react/" },
-          { text: "CDP 浏览器协议", link: "/handbook/cdp/" },
           { text: "Vue.js", link: "/handbook/vue/" },
           { text: "Node.js", link: "/handbook/node/index.md" },
+          { text: "CDP 浏览器协议", link: "/handbook/cdp/" },
+          { text: "HTTP网络知识", link: "/computer/http/" },
           // { text: "HTML5", link: "/handbook/html5/" },
           // { text: "CSS", link: "/handbook/css3/" },
           // { text: "Axios", link: "/handbook/axios/" },
@@ -45,10 +36,34 @@ const myNav = [
     ],
   },
   {
-    text: "计算机科学",
+    text: "AI 产品与应用",
     items: [
-      { text: "HTTP网络知识", link: "/computer/http/" },
-      { text: "吃喝玩乐", link: "/good-life/eat/" },
+      {
+        text: "开发框架",
+        items: [
+          { text: "LangChain框架", link: "/handbook/langchain/" },
+          { text: "FastAPI框架", link: "/handbook/fastapi/" },
+          { text: "AI Agent框架", link: "/handbook/ai-agent/" },
+        ],
+      },
+      {
+        text: "全栈开发",
+        items: [
+          { text: "AI Agent原生开发", link: "/handbook/ai-agent-raw/" },
+          { text: "AI SDD 全栈开发实战 ", link: "/handbook/ai-sdd/" },
+          { text: "AI Agent 企业应用实战", link: "/handbook/ai-agent-dev/" },
+          {
+            text: "AI Agent 全栈开发",
+            link: "/handbook/ai-agent-fullstack/",
+          },
+        ],
+      },
+      {
+        text: "AI 产品",
+        items: [
+          { text: "AI产品经理实训", link: "/handbook/ai-agent-product/" },
+        ],
+      },
     ],
   },
   {

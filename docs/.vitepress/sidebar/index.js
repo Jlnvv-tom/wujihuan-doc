@@ -20,6 +20,9 @@ import {
   aiAgentSidebar,
   aiSddSidebar,
   aiAgentRawSidebar,
+  aiAgentDevSidebar,
+  aiAgentFullstackSidebar,
+  aiAgentProductSidebar,
   cdpSidebar,
 } from "./handbook";
 
@@ -44,6 +47,9 @@ const mySideBar = {
   "/handbook/ai-agent/": aiAgentSidebar,
   "/handbook/ai-sdd/": aiSddSidebar,
   "/handbook/ai-agent-raw/": aiAgentRawSidebar,
+  "/handbook/ai-agent-dev/": aiAgentDevSidebar,
+  "/handbook/ai-agent-fullstack/": aiAgentFullstackSidebar,
+  "/handbook/ai-agent-product/": aiAgentProductSidebar,
   "/handbook/cdp/": cdpSidebar,
   "/english/": englishSidebar,
   "/handbook/redis/": redisSidebar,

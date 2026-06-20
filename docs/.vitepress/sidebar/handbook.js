@@ -1,3 +1,113 @@
+//#region AI Agent Dev
+export const aiAgentDevSidebar = [
+  {
+    text: "AI Agent 企业应用实战",
+    items: [
+      {
+        text: "AI Agent 企业应用实战",
+        link: "/handbook/ai-agent-dev/",
+      },
+      {
+        text: "第1章、AI Agent 本质与认知框架",
+        link: "/handbook/ai-agent-dev/chapter_1",
+      },
+      {
+        text: "第2章、技术选型全景：三大路径与工具生态",
+        link: "/handbook/ai-agent-dev/chapter_2",
+      },
+      {
+        text: "第3章、Manus 实战：通用 Agent 全流程",
+        link: "/handbook/ai-agent-dev/chapter_3",
+      },
+      {
+        text: "第4章、Coze 扣子实战：低代码 Agent 全攻略",
+        link: "/handbook/ai-agent-dev/chapter_4",
+      },
+      {
+        text: "第5章、Dify 实战：RAG 与工作流企业级应用",
+        link: "/handbook/ai-agent-dev/chapter_5",
+      },
+      {
+        text: "第6章、腾讯元器实战：微信生态 AI 智能体",
+        link: "/handbook/ai-agent-dev/chapter_6",
+      },
+      {
+        text: "第7章、阿里云百炼实战：阿里生态 AI 智能体",
+        link: "/handbook/ai-agent-dev/chapter_7",
+      },
+      {
+        text: "第8章、n8n 工作流实战：AI 自动化全流程",
+        link: "/handbook/ai-agent-dev/chapter_8",
+      },
+      {
+        text: "第9章、LangChain 入门实战",
+        link: "/handbook/ai-agent-dev/chapter_9",
+      },
+      {
+        text: "第10章、LlamaIndex 企业级 RAG 实战",
+        link: "/handbook/ai-agent-dev/chapter_10",
+      },
+      {
+        text: "第11章、LangGraph 图式编排：高阶智能体开发",
+        link: "/handbook/ai-agent-dev/chapter_11",
+      },
+      {
+        text: "第12章、MCP 协议实战：AI 标准化接口开发",
+        link: "/handbook/ai-agent-dev/chapter_12",
+      },
+      {
+        text: "第13章、AutoGen：多智能体协同与群聊实战",
+        link: "/handbook/ai-agent-dev/chapter_13",
+      },
+      {
+        text: "第14章、CrewAI：高效 AI 团队构建实战",
+        link: "/handbook/ai-agent-dev/chapter_14",
+      },
+      {
+        text: "第15章、MetaGPT：AI 软件公司化协作与 SOP 编排",
+        link: "/handbook/ai-agent-dev/chapter_15",
+      },
+      {
+        text: "第16章、项目实战：会议智能自动化",
+        link: "/handbook/ai-agent-dev/chapter_16",
+      },
+      {
+        text: "第17章、项目实战：短视频自动化生产流水线",
+        link: "/handbook/ai-agent-dev/chapter_17",
+      },
+      {
+        text: "第18章、项目实战：每日新闻官",
+        link: "/handbook/ai-agent-dev/chapter_18",
+      },
+      {
+        text: "第19章、项目实战：AI 人才评估闭环系统",
+        link: "/handbook/ai-agent-dev/chapter_19",
+      },
+      {
+        text: "第20章、行业实战：教育 + 医疗 + 金融",
+        link: "/handbook/ai-agent-dev/chapter_20",
+      },
+      {
+        text: "第21章、行业实战：电商 + 法律 + 制造",
+        link: "/handbook/ai-agent-dev/chapter_21",
+      },
+      {
+        text: "第22章、综合实战：基于 Manus + MCP 构建全链路自动化系统",
+        link: "/handbook/ai-agent-dev/chapter_22",
+      },
+      {
+        text: "第23章、综合实战：基于 Coze + Dify 构建小红书爆款内容流水线",
+        link: "/handbook/ai-agent-dev/chapter_23",
+      },
+      {
+        text: "第24章、未来展望与行动指南",
+        link: "/handbook/ai-agent-dev/chapter_24",
+      },
+    ],
+  },
+];
+//#endregion
+
 //#region Redis
 export const redisSidebar = [
   {
@@ -995,6 +1105,177 @@ export const electronSidebar = [
       {
         text: "第16章、总结与展望｜生态现状、框架对比、行业趋势与学习指南",
         link: "/handbook/electron/chapter_16",
+      },
+    ],
+  },
+];
+//#endregion
+//#region AI Agent Product
+export const aiAgentProductSidebar = [
+  {
+    text: "AI产品经理特训营",
+    items: [
+      {
+        text: "AI产品经理特训营",
+        link: "/handbook/ai-agent-product/",
+      },
+      {
+        text: "第1章、AI时代：产品经理的变与不变",
+        link: "/handbook/ai-agent-product/chapter_1",
+      },
+      {
+        text: "第2章、AI全景：技术、产业与玩家格局",
+        link: "/handbook/ai-agent-product/chapter_2",
+      },
+      {
+        text: "第3章、AI产品经理能力模型",
+        link: "/handbook/ai-agent-product/chapter_3",
+      },
+      {
+        text: "第4章、AI产品需求与场景发现",
+        link: "/handbook/ai-agent-product/chapter_4",
+      },
+      {
+        text: "第5章、机会捕捉：市场与需求分析",
+        link: "/handbook/ai-agent-product/chapter_5",
+      },
+      {
+        text: "第6章、产品打造：市场选择、设计与数据驱动",
+        link: "/handbook/ai-agent-product/chapter_6",
+      },
+      {
+        text: "第7章、AI技术基石：算法、算力与产品基本功",
+        link: "/handbook/ai-agent-product/chapter_7",
+      },
+      {
+        text: "第8章、AI落地指南：数据集构建、伦理合规与沟通技巧",
+        link: "/handbook/ai-agent-product/chapter_8",
+      },
+      {
+        text: "第9章、AI润物无声：重塑生活、学习与娱乐",
+        link: "/handbook/ai-agent-product/chapter_9",
+      },
+      {
+        text: "第10章、AI基石之力：重构零售、办公、编程",
+        link: "/handbook/ai-agent-product/chapter_10",
+      },
+      {
+        text: "第11章、AI破界赋能：引领专业服务创新",
+        link: "/handbook/ai-agent-product/chapter_11",
+      },
+      {
+        text: "第12章、AI产品经理求职指南",
+        link: "/handbook/ai-agent-product/chapter_12",
+      },
+      {
+        text: "第13章、AI前沿动态与行业洞察",
+        link: "/handbook/ai-agent-product/chapter_13",
+      },
+    ],
+  },
+];
+//#endregion
+
+//#region AI Agent Fullstack
+export const aiAgentFullstackSidebar = [
+  {
+    text: "AI Agent 全栈开发工程师",
+    items: [
+      {
+        text: "AI Agent 全栈开发工程师",
+        link: "/handbook/ai-agent-fullstack/",
+      },
+      {
+        text: "第1章、LLM 基础认知与 LLMOps 架构设计",
+        link: "/handbook/ai-agent-fullstack/chapter_1",
+      },
+      {
+        text: "第2章、LLMOps 后端搭建与基础聊天机器人",
+        link: "/handbook/ai-agent-fullstack/chapter_2",
+      },
+      {
+        text: "第3章、LLMOps 前端搭建与聊天机器人 API 对接",
+        link: "/handbook/ai-agent-fullstack/chapter_3",
+      },
+      {
+        text: "第4章、记忆模块开发：让聊天机器人拥有记忆",
+        link: "/handbook/ai-agent-fullstack/chapter_4",
+      },
+      {
+        text: "第5章、数据集模块开发：实现特定知识库问答",
+        link: "/handbook/ai-agent-fullstack/chapter_5",
+      },
+      {
+        text: "第6章、插件功能开发：聊天机器人实时联网",
+        link: "/handbook/ai-agent-fullstack/chapter_6",
+      },
+      {
+        text: "第7章、可视化编排开发：插件与知识库集成",
+        link: "/handbook/ai-agent-fullstack/chapter_7",
+      },
+      {
+        text: "第8章、响应模块开发与升级：提升聊天机器人响应体验",
+        link: "/handbook/ai-agent-fullstack/chapter_8",
+      },
+      {
+        text: "第9章、授权认证模块开发：保障应用安全",
+        link: "/handbook/ai-agent-fullstack/chapter_9",
+      },
+      {
+        text: "第10章、审核模块开发：确保 AI 生成合规内容",
+        link: "/handbook/ai-agent-fullstack/chapter_10",
+      },
+      {
+        text: "第11章、开放 API 模块：搭建与其他应用的桥梁",
+        link: "/handbook/ai-agent-fullstack/chapter_11",
+      },
+      {
+        text: "第12章、多应用与工作流模块",
+        link: "/handbook/ai-agent-fullstack/chapter_12",
+      },
+      {
+        text: "第13章、集成多 LLM 模型",
+        link: "/handbook/ai-agent-fullstack/chapter_13",
+      },
+      {
+        text: "第14章、统计模块开发与前端项目优化部署",
+        link: "/handbook/ai-agent-fullstack/chapter_14",
+      },
+      {
+        text: "第15章、后端项目优化与生产环境部署",
+        link: "/handbook/ai-agent-fullstack/chapter_15",
+      },
+      {
+        text: "第16章、多模态插件与第三方应用集成",
+        link: "/handbook/ai-agent-fullstack/chapter_16",
+      },
+      {
+        text: "第17章、数据分析：用户行为与成本洞察",
+        link: "/handbook/ai-agent-fullstack/chapter_17",
+      },
+      {
+        text: "第18章、消息通知：让关键事件主动触达用户",
+        link: "/handbook/ai-agent-fullstack/chapter_18",
+      },
+      {
+        text: "第19章、综合实战项目一：企业内部智能客服系统",
+        link: "/handbook/ai-agent-fullstack/chapter_19",
+      },
+      {
+        text: "第20章、综合实战项目二：SaaS 化 AI 助手平台",
+        link: "/handbook/ai-agent-fullstack/chapter_20",
+      },
+      {
+        text: "第21章、综合实战项目三：个人 AI 知识库应用",
+        link: "/handbook/ai-agent-fullstack/chapter_21",
+      },
+      {
+        text: "第22章、综合实战项目四：AI 驱动的自动化测试平台",
+        link: "/handbook/ai-agent-fullstack/chapter_22",
+      },
+      {
+        text: "第23章、综合实战项目五：AI Agent 协作平台",
+        link: "/handbook/ai-agent-fullstack/chapter_23",
       },
     ],
   },
