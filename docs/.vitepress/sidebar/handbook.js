@@ -1281,3 +1281,81 @@ export const aiAgentFullstackSidebar = [
   },
 ];
 //#endregion
+
+//#region AI Product
+export const aiProductSidebar = [
+  {
+    text: "产品经理课",
+    items: [
+      {
+        text: "产品经理课",
+        link: "/handbook/ai-product/",
+      },
+      {
+        text: "第1章、产品经理到底是个啥",
+        link: "/handbook/ai-product/chapter_1",
+      },
+      {
+        text: "第2章、从0到1：产品经理入门指南",
+        link: "/handbook/ai-product/chapter_2",
+      },
+      {
+        text: "第3章、洞察市场，寻找产品机会",
+        link: "/handbook/ai-product/chapter_3",
+      },
+      {
+        text: "第4章、收集需求，明确产品定位",
+        link: "/handbook/ai-product/chapter_4",
+      },
+      {
+        text: "第5章、搭建产品架构",
+        link: "/handbook/ai-product/chapter_5",
+      },
+      {
+        text: "第6章、交互原型设计",
+        link: "/handbook/ai-product/chapter_6",
+      },
+      {
+        text: "第7章、产品需求文档（PRD）撰写",
+        link: "/handbook/ai-product/chapter_7",
+      },
+      {
+        text: "第8章、从0到1全流程产品设计",
+        link: "/handbook/ai-product/chapter_8",
+      },
+      {
+        text: "第9章、能力迁移：内容类产品设计",
+        link: "/handbook/ai-product/chapter_9",
+      },
+      {
+        text: "第10章、能力迁移：电商类产品设计",
+        link: "/handbook/ai-product/chapter_10",
+      },
+      {
+        text: "第11章、能力迁移：后台类产品设计",
+        link: "/handbook/ai-product/chapter_11",
+      },
+      {
+        text: "第12章、数据分析驱动产品迭代",
+        link: "/handbook/ai-product/chapter_12",
+      },
+      {
+        text: "第13章、项目管理与跨团队协作",
+        link: "/handbook/ai-product/chapter_13",
+      },
+      {
+        text: "第14章、产品上线与持续优化",
+        link: "/handbook/ai-product/chapter_14",
+      },
+      {
+        text: "第15章、AI时代的产品经理",
+        link: "/handbook/ai-product/chapter_15",
+      },
+      {
+        text: "第16章、产品人生与职业规划",
+        link: "/handbook/ai-product/chapter_16",
+      },
+    ],
+  },
+];
+//#endregion

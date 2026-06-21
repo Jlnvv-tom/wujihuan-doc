@@ -62,6 +62,7 @@ const myNav = [
         text: "AI 产品",
         items: [
           { text: "AI产品经理实训", link: "/handbook/ai-agent-product/" },
+          { text: "产品经理课", link: "/handbook/ai-product/" },
         ],
       },
     ],
