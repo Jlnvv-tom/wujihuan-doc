@@ -1,3 +1,81 @@
+//#region Go Expert Course
+export const goExpertCourseSidebar = [
+  {
+    text: "Go专家进阶营",
+    items: [
+      {
+        text: "Go专家进阶营",
+        link: "/handbook/go-expert-course/",
+      },
+      {
+        text: "第1章、通知平台需求分析与架构设计",
+        link: "/handbook/go-expert-course/chapter_1",
+      },
+      {
+        text: "第2章、通知平台核心功能实现",
+        link: "/handbook/go-expert-course/chapter_2",
+      },
+      {
+        text: "第3章、通知平台高可用与扩展",
+        link: "/handbook/go-expert-course/chapter_3",
+      },
+      {
+        text: "第4章、通知平台性能优化与总结",
+        link: "/handbook/go-expert-course/chapter_4",
+      },
+      {
+        text: "第5章、权限系统需求分析与模型设计",
+        link: "/handbook/go-expert-course/chapter_5",
+      },
+      {
+        text: "第6章、权限系统核心功能实现",
+        link: "/handbook/go-expert-course/chapter_6",
+      },
+      {
+        text: "第7章、权限系统高可用与扩展",
+        link: "/handbook/go-expert-course/chapter_7",
+      },
+      {
+        text: "第8章、权限系统安全加固与总结",
+        link: "/handbook/go-expert-course/chapter_8",
+      },
+      {
+        text: "第9章、WebSocket网关需求分析与架构设计",
+        link: "/handbook/go-expert-course/chapter_9",
+      },
+      {
+        text: "第10章、WebSocket网关核心功能实现",
+        link: "/handbook/go-expert-course/chapter_10",
+      },
+      {
+        text: "第11章、WebSocket网关集群与扩展",
+        link: "/handbook/go-expert-course/chapter_11",
+      },
+      {
+        text: "第12章、WebSocket网关高可用与总结",
+        link: "/handbook/go-expert-course/chapter_12",
+      },
+      {
+        text: "第13章、分布式任务调度系统需求分析",
+        link: "/handbook/go-expert-course/chapter_13",
+      },
+      {
+        text: "第14章、调度引擎核心实现",
+        link: "/handbook/go-expert-course/chapter_14",
+      },
+      {
+        text: "第15章、调度系统高可用与扩展",
+        link: "/handbook/go-expert-course/chapter_15",
+      },
+      {
+        text: "第16章、分布式调度系统总结与课程总复盘",
+        link: "/handbook/go-expert-course/chapter_16",
+      },
+    ],
+  },
+];
+//#endregion
+
 //#region AI Agent Dev
 export const aiAgentDevSidebar = [
   {
