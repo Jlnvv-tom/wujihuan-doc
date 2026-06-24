@@ -10,6 +10,7 @@ const myNav = [
           { text: "Python", link: "/handbook/python/" },
           { text: "Golang", link: "/handbook/golang/" },
           { text: "Go专家进阶营", link: "/handbook/go-expert-course/" },
+          { text: "Go实战训练营", link: "/handbook/go-practice/" },
         ],
       },
       {

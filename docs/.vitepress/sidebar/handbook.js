@@ -76,6 +76,84 @@ export const goExpertCourseSidebar = [
 ];
 //#endregion
 
+//#region Go Practice
+export const goPracticeSidebar = [
+  {
+    text: "Go实战训练营",
+    items: [
+      {
+        text: "Go实战训练营",
+        link: "/handbook/go-practice/",
+      },
+      {
+        text: "第1章、Web框架核心设计",
+        link: "/handbook/go-practice/chapter_1",
+      },
+      {
+        text: "第2章、AOP方案设计",
+        link: "/handbook/go-practice/chapter_2",
+      },
+      {
+        text: "第3章、Web框架高级功能",
+        link: "/handbook/go-practice/chapter_3",
+      },
+      {
+        text: "第4章、SQL构造与执行",
+        link: "/handbook/go-practice/chapter_4",
+      },
+      {
+        text: "第5章、ORM实战项目",
+        link: "/handbook/go-practice/chapter_5",
+      },
+      {
+        text: "第6章、本地缓存与Redis客户端",
+        link: "/handbook/go-practice/chapter_6",
+      },
+      {
+        text: "第7章、缓存策略与一致性",
+        link: "/handbook/go-practice/chapter_7",
+      },
+      {
+        text: "第8章、RPC框架设计",
+        link: "/handbook/go-practice/chapter_8",
+      },
+      {
+        text: "第9章、服务治理",
+        link: "/handbook/go-practice/chapter_9",
+      },
+      {
+        text: "第10章、可观测性与微服务实战",
+        link: "/handbook/go-practice/chapter_10",
+      },
+      {
+        text: "第11章、分布式事务理论",
+        link: "/handbook/go-practice/chapter_11",
+      },
+      {
+        text: "第12章、分布式事务实践",
+        link: "/handbook/go-practice/chapter_12",
+      },
+      {
+        text: "第13章、Kafka与消息队列原理",
+        link: "/handbook/go-practice/chapter_13",
+      },
+      {
+        text: "第14章、消息队列实战",
+        link: "/handbook/go-practice/chapter_14",
+      },
+      {
+        text: "第15章、工程化与CI/CD",
+        link: "/handbook/go-practice/chapter_15",
+      },
+      {
+        text: "第16章、总结与面试冲刺",
+        link: "/handbook/go-practice/chapter_16",
+      },
+    ],
+  },
+];
+//#endregion
+
 //#region AI Agent Dev
 export const aiAgentDevSidebar = [
   {

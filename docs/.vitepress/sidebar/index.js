@@ -26,6 +26,7 @@ import {
   aiProductSidebar,
   cdpSidebar,
   goExpertCourseSidebar,
+  goPracticeSidebar,
 } from "./handbook";
 
 const mySideBar = {
@@ -57,6 +58,7 @@ const mySideBar = {
   "/english/": englishSidebar,
   "/handbook/redis/": redisSidebar,
   "/handbook/go-expert-course/": goExpertCourseSidebar,
+  "/handbook/go-practice/": goPracticeSidebar,
 };
 
 export default mySideBar;
