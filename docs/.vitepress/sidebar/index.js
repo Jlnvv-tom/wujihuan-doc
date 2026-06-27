@@ -27,6 +27,7 @@ import {
   cdpSidebar,
   goExpertCourseSidebar,
   goPracticeSidebar,
+  pythonPracticeSidebar,
 } from "./handbook";
 
 const mySideBar = {
@@ -59,6 +60,7 @@ const mySideBar = {
   "/handbook/redis/": redisSidebar,
   "/handbook/go-expert-course/": goExpertCourseSidebar,
   "/handbook/go-practice/": goPracticeSidebar,
+  "/handbook/python-practice/": pythonPracticeSidebar,
 };
 
 export default mySideBar;

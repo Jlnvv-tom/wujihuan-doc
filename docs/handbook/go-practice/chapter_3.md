@@ -279,12 +279,11 @@ type User struct {
 }
 
 func main() {
-    tmplStr := `用户名: {{.Name}}
-年龄: {{.Age}}
-邮箱: {{.Email}}
-{{if gt .Age 18}}状态: 成年人{{else}}状态: 未成年{{end}}
-{{range $index, $value := .Hobbies}}爱好{{$index}}: {{$value}}
-{{end}}`
+    // Go template 使用双花括号作为分隔符
+    // 下面演示基础模板渲染流程
+    ld := "\x7b\x7b" // 左分隔符
+    rd := "\x7d\x7d" // 右分隔符
+    tmplStr := "用户名: " + ld + ".Name" + rd + "\n年龄: " + ld + ".Age" + rd + "\n邮箱: " + ld + ".Email" + rd
 
     type UserWithHobbies struct {
         Name    string
@@ -316,12 +315,12 @@ func main() {
 
 Go模板的语法可能一开始看着不太习惯，但核心就那么几个动作：
 
-- `{{.}}` 当前对象
-- `{{.Field}}` 访问字段
-- `{{if ...}}...{{else}}...{{end}}` 条件判断
-- `{{range ...}}...{{end}}` 循环
-- `{{with ...}}...{{end}}` 非空判断
-- `{{template "name" .}}` 模板嵌套
+- <code v-pre>{{.}}</code> 当前对象
+- <code v-pre>{{.Field}}</code> 访问字段
+- <code v-pre>{{if ...}}...{{else}}...{{end}}</code> 条件判断
+- <code v-pre>{{range ...}}...{{end}}</code> 循环
+- <code v-pre>{{with ...}}...{{end}}</code> 非空判断
+- <code v-pre>{{template "name" .}}</code> 模板嵌套
 
 ### 2.2 html/template 与 XSS防护
 

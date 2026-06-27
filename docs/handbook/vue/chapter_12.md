@@ -658,7 +658,7 @@ export default defineComponent({
 
 Vue 3的响应式系统与TypeScript的结合是一个精妙的设计。ref和reactive等响应式API都有完善的类型定义，能够根据初始值自动推断出正确的类型。这使得在使用响应式数据时，TypeScript能够提供准确的类型提示和检查。
 
-ref的类型推断基于其初始值。如果传入一个字符串，ref返回的类型就是Ref<string>，访问.value属性会得到string类型。reactive的行为类似但略有不同，它会返回一个对象的深度只读代理。TypeScript能够正确推断reactive返回的类型，包括所有嵌套属性的类型。
+ref的类型推断基于其初始值。如果传入一个字符串，ref返回的类型就是`Ref<string>`，访问.value属性会得到string类型。reactive的行为类似但略有不同，它会返回一个对象的深度只读代理。TypeScript能够正确推断reactive返回的类型，包括所有嵌套属性的类型。
 
 对于复杂的数据结构，如从API返回的响应数据，可以使用泛型来确保类型的完整性。这在处理异步数据和全局状态时尤为重要。通过正确使用类型定义，可以将类型安全从编译时延伸到运行时，大大减少运行时错误。
 

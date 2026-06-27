@@ -1,3 +1,81 @@
+//#region Python Practice
+export const pythonPracticeSidebar = [
+  {
+    text: "Python实战训练营",
+    items: [
+      {
+        text: "Python实战训练营",
+        link: "/handbook/python-practice/",
+      },
+      {
+        text: "第1章、Web框架核心设计与WSGI规范",
+        link: "/handbook/python-practice/chapter_1",
+      },
+      {
+        text: "第2章、中间件与AOP方案设计",
+        link: "/handbook/python-practice/chapter_2",
+      },
+      {
+        text: "第3章、Web框架高级功能实现",
+        link: "/handbook/python-practice/chapter_3",
+      },
+      {
+        text: "第4章、ORM核心设计与元编程",
+        link: "/handbook/python-practice/chapter_4",
+      },
+      {
+        text: "第5章、Query Builder与事务管理",
+        link: "/handbook/python-practice/chapter_5",
+      },
+      {
+        text: "第6章、异步编程核心原理",
+        link: "/handbook/python-practice/chapter_6",
+      },
+      {
+        text: "第7章、异步框架与并发模式",
+        link: "/handbook/python-practice/chapter_7",
+      },
+      {
+        text: "第8章、RPC框架设计与gRPC",
+        link: "/handbook/python-practice/chapter_8",
+      },
+      {
+        text: "第9章、服务治理",
+        link: "/handbook/python-practice/chapter_9",
+      },
+      {
+        text: "第10章、可观测性与API网关",
+        link: "/handbook/python-practice/chapter_10",
+      },
+      {
+        text: "第11章、分布式基础与缓存系统",
+        link: "/handbook/python-practice/chapter_11",
+      },
+      {
+        text: "第12章、分布式任务调度与消息队列",
+        link: "/handbook/python-practice/chapter_12",
+      },
+      {
+        text: "第13章、数据处理与ETL工程",
+        link: "/handbook/python-practice/chapter_13",
+      },
+      {
+        text: "第14章、工作流调度与数据质量",
+        link: "/handbook/python-practice/chapter_14",
+      },
+      {
+        text: "第15章、CI/CD与容器化部署",
+        link: "/handbook/python-practice/chapter_15",
+      },
+      {
+        text: "第16章、性能优化与生产就绪",
+        link: "/handbook/python-practice/chapter_16",
+      },
+    ],
+  },
+];
+//#endregion
+
 //#region Go Expert Course
 export const goExpertCourseSidebar = [
   {

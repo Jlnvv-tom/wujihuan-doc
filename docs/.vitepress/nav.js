@@ -8,9 +8,10 @@ const myNav = [
         items: [
           { text: "JavaScript", link: "/handbook/javascript/" },
           { text: "Python", link: "/handbook/python/" },
+          { text: "Python实战训练", link: "/handbook/python-practice/" },
           { text: "Golang", link: "/handbook/golang/" },
-          { text: "Go专家进阶营", link: "/handbook/go-expert-course/" },
           { text: "Go实战训练营", link: "/handbook/go-practice/" },
+          { text: "Go专家进阶营", link: "/handbook/go-expert-course/" },
         ],
       },
       {

@@ -43,7 +43,7 @@ function createReactiveEffect(fn) {
 }
 ```
 
-TargetMap是Vue 3依赖存储的核心数据结构，它使用WeakMap作为外层映射，以原始对象（target）为键，内部使用Map存储属性名（key）到依赖集合（Set<effect>）的映射。这种设计有三重考量：首先，WeakMap的键是弱引用，不会阻止垃圾回收，避免了内存泄漏问题；其次，使用Map而非普通对象可以支持任意类型的键，包括Symbol；第三，使用Set而非数组可以自动去重，避免重复添加相同的依赖。
+TargetMap是Vue 3依赖存储的核心数据结构，它使用WeakMap作为外层映射，以原始对象（target）为键，内部使用Map存储属性名（key）到依赖集合（`Set<effect>`）的映射。这种设计有三重考量：首先，WeakMap的键是弱引用，不会阻止垃圾回收，避免了内存泄漏问题；其次，使用Map而非普通对象可以支持任意类型的键，包括Symbol；第三，使用Set而非数组可以自动去重，避免重复添加相同的依赖。
 
 ```javascript
 // TargetMap的三层数据结构
