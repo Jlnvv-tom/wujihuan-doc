@@ -232,6 +232,64 @@ export const goPracticeSidebar = [
 ];
 //#endregion
 
+//#region Python Crawler
+export const pythonCrawlerSidebar = [
+  {
+    text: "Python高级爬虫实战",
+    items: [
+      {
+        text: "Python高级爬虫实战",
+        link: "/handbook/python-crawler/",
+      },
+      {
+        text: "第1章、爬虫进阶导学与反爬全景",
+        link: "/handbook/python-crawler/chapter_1",
+      },
+      {
+        text: "第2章、HTTP网络基础知识",
+        link: "/handbook/python-crawler/chapter_2",
+      },
+      {
+        text: "第3章、代理服务搭建与代理池架构",
+        link: "/handbook/python-crawler/chapter_3",
+      },
+      {
+        text: "第4章、破解加密登录与JS逆向",
+        link: "/handbook/python-crawler/chapter_4",
+      },
+      {
+        text: "第5章、Cookie池搭建与维护",
+        link: "/handbook/python-crawler/chapter_5",
+      },
+      {
+        text: "第6章、浏览器调度与验证码识别",
+        link: "/handbook/python-crawler/chapter_6",
+      },
+      {
+        text: "第7章、逆向破解加密数据",
+        link: "/handbook/python-crawler/chapter_7",
+      },
+      {
+        text: "第8章、反爬实战与分布式爬虫",
+        link: "/handbook/python-crawler/chapter_8",
+      },
+      {
+        text: "第9章、分布式爬虫架构方案",
+        link: "/handbook/python-crawler/chapter_9",
+      },
+      {
+        text: "第10章、课程终极测验",
+        link: "/handbook/python-crawler/chapter_10",
+      },
+      {
+        text: "第11章、爬虫工程师简历指导",
+        link: "/handbook/python-crawler/chapter_11",
+      },
+    ],
+  },
+];
+//#endregion
+
 //#region AI Agent Dev
 export const aiAgentDevSidebar = [
   {
