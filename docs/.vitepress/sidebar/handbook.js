@@ -1651,3 +1651,85 @@ export const aiProductSidebar = [
   },
 ];
 //#endregion
+
+//#region Python Mobile Crawler
+export const pythonMobileCrawlerSidebar = [
+  {
+    text: "Python移动端爬虫与自动化全链路实战",
+    items: [
+      {
+        text: "Python移动端爬虫与自动化全链路实战",
+        link: "/handbook/python-mobile-crawler/",
+      },
+      {
+        text: "第1章、爬虫进阶导学与移动端爬虫全景",
+        link: "/handbook/python-mobile-crawler/chapter_1",
+      },
+      {
+        text: "第2章、移动端爬虫项目分析",
+        link: "/handbook/python-mobile-crawler/chapter_2",
+      },
+      {
+        text: "第3章、项目环境搭建",
+        link: "/handbook/python-mobile-crawler/chapter_3",
+      },
+      {
+        text: "第4章、Appium初探",
+        link: "/handbook/python-mobile-crawler/chapter_4",
+      },
+      {
+        text: "第5章、Appium常用操作",
+        link: "/handbook/python-mobile-crawler/chapter_5",
+      },
+      {
+        text: "第6章、Appium内置功能",
+        link: "/handbook/python-mobile-crawler/chapter_6",
+      },
+      {
+        text: "第7章、短视频实战（Appium关联）",
+        link: "/handbook/python-mobile-crawler/chapter_7",
+      },
+      {
+        text: "第8章、MitmProxy核心功能",
+        link: "/handbook/python-mobile-crawler/chapter_8",
+      },
+      {
+        text: "第9章、MitmProxy组件应用",
+        link: "/handbook/python-mobile-crawler/chapter_9",
+      },
+      {
+        text: "第10章、MitmProxy高阶开发",
+        link: "/handbook/python-mobile-crawler/chapter_10",
+      },
+      {
+        text: "第11章、短视频实战：视频采集与存储",
+        link: "/handbook/python-mobile-crawler/chapter_11",
+      },
+      {
+        text: "第12章、安卓群控系统",
+        link: "/handbook/python-mobile-crawler/chapter_12",
+      },
+      {
+        text: "第13章、Streamlit可视化数据分析",
+        link: "/handbook/python-mobile-crawler/chapter_13",
+      },
+      {
+        text: "第14章、AI交互与报告生成平台",
+        link: "/handbook/python-mobile-crawler/chapter_14",
+      },
+      {
+        text: "第15章、群控日志可视化",
+        link: "/handbook/python-mobile-crawler/chapter_15",
+      },
+      {
+        text: "第16章、反爬机制应对",
+        link: "/handbook/python-mobile-crawler/chapter_16",
+      },
+      {
+        text: "第17章、课程总结与全链路收官",
+        link: "/handbook/python-mobile-crawler/chapter_17",
+      },
+    ],
+  },
+];
+//#endregion
