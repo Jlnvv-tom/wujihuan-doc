@@ -30,6 +30,7 @@ import {
   pythonPracticeSidebar,
   pythonCrawlerSidebar,
   pythonMobileCrawlerSidebar,
+  pythonLlmSidebar,
 } from "./handbook";
 
 const mySideBar = {
@@ -65,6 +66,7 @@ const mySideBar = {
   "/handbook/python-practice/": pythonPracticeSidebar,
   "/handbook/python-crawler/": pythonCrawlerSidebar,
   "/handbook/python-mobile-crawler/": pythonMobileCrawlerSidebar,
+  "/handbook/python-llm/": pythonLlmSidebar,
 };
 
 export default mySideBar;

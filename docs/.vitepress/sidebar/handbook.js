@@ -1733,3 +1733,93 @@ export const pythonMobileCrawlerSidebar = [
   },
 ];
 //#endregion
+
+//#region Python LLM
+export const pythonLlmSidebar = [
+  {
+    text: "LLM开发工程师入行实战",
+    items: [
+      {
+        text: "LLM开发工程师入行实战",
+        link: "/handbook/python-llm/",
+      },
+      {
+        text: "第1章、LLM大模型工程师入门实战 — 课程导学",
+        link: "/handbook/python-llm/chapter_1",
+      },
+      {
+        text: "第2章、初识大语言模型",
+        link: "/handbook/python-llm/chapter_2",
+      },
+      {
+        text: "第3章、开发环境搭建",
+        link: "/handbook/python-llm/chapter_3",
+      },
+      {
+        text: "第4章、使用HuggingFace训练GPT-2",
+        link: "/handbook/python-llm/chapter_4",
+      },
+      {
+        text: "第5章、驾驭LLM的对话艺术与工具",
+        link: "/handbook/python-llm/chapter_5",
+      },
+      {
+        text: "第6章、Python语言基础",
+        link: "/handbook/python-llm/chapter_6",
+      },
+      {
+        text: "第7章、深度学习核心入门",
+        link: "/handbook/python-llm/chapter_7",
+      },
+      {
+        text: "第8章、优化深度学习训练参数",
+        link: "/handbook/python-llm/chapter_8",
+      },
+      {
+        text: "第9章、手写字识别实战",
+        link: "/handbook/python-llm/chapter_9",
+      },
+      {
+        text: "第10章、数据爬取与清洗",
+        link: "/handbook/python-llm/chapter_10",
+      },
+      {
+        text: "第11章、文本与分词艺术",
+        link: "/handbook/python-llm/chapter_11",
+      },
+      {
+        text: "第12章、注意力机制的奥秘",
+        link: "/handbook/python-llm/chapter_12",
+      },
+      {
+        text: "第13章、Transformer架构的革命",
+        link: "/handbook/python-llm/chapter_13",
+      },
+      {
+        text: "第14章、实现迷你GPT",
+        link: "/handbook/python-llm/chapter_14",
+      },
+      {
+        text: "第15章、模型微调与文本分类",
+        link: "/handbook/python-llm/chapter_15",
+      },
+      {
+        text: "第16章、知识蒸馏",
+        link: "/handbook/python-llm/chapter_16",
+      },
+      {
+        text: "第17章、RAG检索增强生成",
+        link: "/handbook/python-llm/chapter_17",
+      },
+      {
+        text: "第18章、Agent与MCP",
+        link: "/handbook/python-llm/chapter_18",
+      },
+      {
+        text: "第19章、课程总结",
+        link: "/handbook/python-llm/chapter_19",
+      },
+    ],
+  },
+];
+//#endregion

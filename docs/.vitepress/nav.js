@@ -11,6 +11,7 @@ const myNav = [
           { text: "Python实战训练", link: "/handbook/python-practice/" },
           { text: "Python高级爬虫", link: "/handbook/python-crawler/" },
           { text: "Python移动端爬虫", link: "/handbook/python-mobile-crawler/" },
+          { text: "LLM开发工程师", link: "/handbook/python-llm/" },
           { text: "Golang", link: "/handbook/golang/" },
           { text: "Go实战训练营", link: "/handbook/go-practice/" },
           { text: "Go专家进阶营", link: "/handbook/go-expert-course/" },
