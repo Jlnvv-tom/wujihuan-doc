@@ -903,7 +903,7 @@ export default {
 
 ### 7.6.2 路由缓存策略的实现
 
-路由缓存是优化SPA性能的重要手段，通过keep-alive组件可以缓存已访问的路由组件，避免重复渲染。Vue Router的meta字段提供了keepAlive标记，配合Vue的<keep-alive>组件可以实现灵活的缓存策略。
+路由缓存是优化SPA性能的重要手段，通过keep-alive组件可以缓存已访问的路由组件，避免重复渲染。Vue Router的meta字段提供了keepAlive标记，配合Vue的<code v-pre>&lt;keep-alive&gt;</code>组件可以实现灵活的缓存策略。
 
 ```javascript
 // App.vue中配置keep-alive

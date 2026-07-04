@@ -335,7 +335,7 @@ def download_view(request):
 
 模板引擎的核心任务是：把模板字符串和数据合并，生成最终输出。这个过程和编译器的流程非常相似，分为四个阶段：
 
-**词法分析（Lexing）**：将模板字符串切分成Token序列。比如`{{ user.name }}`会被切分成`VARIABLE_START`、`user.name`、`VARIABLE_END`三个Token。词法分析器需要识别文本内容、变量标记、控制结构标记等不同类型的词法单元。
+**词法分析（Lexing）**：将模板字符串切分成Token序列。比如<code v-pre>{{ user.name }}</code>会被切分成`VARIABLE_START`、`user.name`、`VARIABLE_END`三个Token。词法分析器需要识别文本内容、变量标记、控制结构标记等不同类型的词法单元。
 
 **语法分析（Parsing）**：将Token序列组织成抽象语法树（AST）。AST中的节点类型包括文本节点、变量输出节点、条件判断节点、循环节点等。语法分析器需要处理嵌套结构——比如`{% if %}`里面可以嵌套`{% for %}`。
 
@@ -475,7 +475,7 @@ def user_view(request):
 
 ### 2.5 变量查找链与过滤器系统
 
-Jinja2的变量查找机制比想象中复杂。当模板中写`{{ user.name }}`时，Jinja2会按照以下顺序查找：
+Jinja2的变量查找机制比想象中复杂。当模板中写<code v-pre>{{ user.name }}</code>时，Jinja2会按照以下顺序查找：
 
 1. `user["name"]` —— 字典查找（`__getitem__`）
 2. `user.name` —— 属性查找（`__getattr__`）
@@ -483,7 +483,7 @@ Jinja2的变量查找机制比想象中复杂。当模板中写`{{ user.name }}`
 
 这个查找链保证了模板对不同类型的数据对象都能正常工作——无论你传的是字典、对象还是ORM模型实例，模板都能正确取到值。但也带来了一定的性能开销，因为每次变量访问都要依次尝试三种查找方式。
 
-过滤器系统是Jinja2的另一大特色。过滤器可以对变量值进行变换，语法是`{{ variable | filter_name }}`。管道符可以串联：`{{ variable | filter1 | filter2 }}`。Jinja2内置了大量过滤器，同时也支持自定义：
+过滤器系统是Jinja2的另一大特色。过滤器可以对变量值进行变换，语法是<code v-pre>{{ variable | filter_name }}</code>。管道符可以串联：<code v-pre>{{ variable | filter1 | filter2 }}</code>。Jinja2内置了大量过滤器，同时也支持自定义：
 
 ```python
 from jinja2 import Environment
