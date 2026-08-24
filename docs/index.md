@@ -29,3 +29,16 @@ features:
     title: 利用工具让事情变得高效
     details: 工业、信息、AI技术革命者们努力打造效率工具
 ---
+
+<div style="display: flex; gap: 32px; flex-wrap: wrap; justify-content: center; align-items: center; margin: 48px 0 32px; padding: 32px; background: var(--vp-home-features-bg, #f6f6f6); border-radius: 16px;">
+  <div style="text-align: center;">
+    <img src="/images/wxgzh.jpeg" alt="微信公众号" width="180" style="border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.12);" />
+    <p style="margin-top: 12px; font-weight: 700; font-size: 16px;">微信公众号</p>
+    <p style="margin-top: 4px; font-size: 13px; color: var(--vp-c-text-2, #666);">技术分享 · 生活感悟</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="/images/wxsph.jpg" alt="微信视频号" width="180" style="border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,0.12);" />
+    <p style="margin-top: 12px; font-weight: 700; font-size: 16px;">微信视频号</p>
+    <p style="margin-top: 4px; font-size: 13px; color: var(--vp-c-text-2, #666);">视频内容 · 实战演示</p>
+  </div>
+</div>
