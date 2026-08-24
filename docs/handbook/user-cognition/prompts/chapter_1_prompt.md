@@ -1,4 +1,4 @@
-根据下面的文章目录，以IP「怕浪猫」的名义写一篇关于"记忆偏差"的文章，图文并茂，正文中用图片占位符说明需要配图的位置和描述，图片使用"![图片描述](图片URL)"格式（URL留空即可），图标尽量不出现。
+根据下面的文章目录，以IP「怕浪猫」的名义写一篇关于"记忆偏差"的文章，图文并茂，正文中用图片占位符说明需要配图的位置和描述，图片使用"<div style="margin: 24px 0; padding: 24px; background: #f6f6f6; border-radius: 8px; text-align: center; color: #888;"><em>图：图片描述</em></div>"格式（URL留空即可），图标尽量不出现。
 
 IP名称使用规范：
 - 自我介绍时用"我是怕浪猫"，第一人称可交替使用"我"和"怕浪猫"
@@ -85,9 +85,9 @@ IP名称使用规范：
 
 #### 图片占位符要求
 在每个偏差的解释处，添加一张说明性图片占位符，格式：
-`![偏差名称：简短描述](图片URL)`
+`<div style="margin: 24px 0; padding: 24px; background: #f6f6f6; border-radius: 8px; text-align: center; color: #888;"><em>图：偏差名称：简短描述</em></div>`
 
 例如：
-`![光晕效应：长相吸引力和能力评价的相关性示意图](图片URL)`
+`<div style="margin: 24px 0; padding: 24px; background: #f6f6f6; border-radius: 8px; text-align: center; color: #888;"><em>图：光晕效应：长相吸引力和能力评价的相关性示意图</em></div>`
 
 确保图片描述准确，且正文中有对图片内容的文字说明。

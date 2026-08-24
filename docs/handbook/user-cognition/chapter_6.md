@@ -27,7 +27,7 @@
 
 学生们对这份"个性化报告"打出的平均准确度评分是 **4.26/5.0**。后来发现，这份报告的内容是 Forer 从星座书里拼凑出来的。
 
-![巴纳姆效应：同一份模糊描述，被不同人认为"极度准确"](图片URL)
+<div style="margin: 24px 0; padding: 24px; background: #f6f6f6; border-radius: 8px; text-align: center; color: #888;"><em>图：巴纳姆效应：同一份模糊描述，被不同人认为"极度准确"</em></div>
 
 **巴纳姆效应的核心机制：**
 
@@ -62,7 +62,7 @@
 
 想象一下：你面前有一盘巧克力，告诉你"随便吃"——你可能吃一两块就不想吃了。但如果告诉你"这盘巧克力你不能吃，绝对不能吃"——突然，这盘巧克力变得格外诱人了。
 
-![逆反抗拒：禁止强度vs欲望强度的关系曲线](图片URL)
+<div style="margin: 24px 0; padding: 24px; background: #f6f6f6; border-radius: 8px; text-align: center; color: #888;"><em>图：逆反抗拒：禁止强度vs欲望强度的关系曲线</em></div>
 
 **逆反抗拒的心理机制：**
 
@@ -105,7 +105,7 @@ Emily Pronin 等心理学家的研究显示了这一点：让参与者评估自�
 - 但参与者对他人的评估相对客观（接近实际水平）
 - 这种对自己和他人的双重标准，发生在几乎所有参与者身上——包括那些声称自己很"理性"的人
 
-![盲点偏见：自我评估vs他人评估的偏差程度对比](图片URL)
+<div style="margin: 24px 0; padding: 24px; background: #f6f6f6; border-radius: 8px; text-align: center; color: #888;"><em>图：盲点偏见：自我评估vs他人评估的偏差程度对比</em></div>
 
 **盲点偏见为什么这么难对付：**
 

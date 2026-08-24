@@ -22,7 +22,7 @@
 
 这个偏差不需要复杂的实验来证明——看看你自己的朋友圈、你的公司、你的校友群，甚至是你的球迷群体。每当有人批评你所在的群体，你的防御性反应是自动的、快速的，不需要经过思考。
 
-![内群体偏见：内部成员vs外部成员在评价、资源分配和信任度上的差异](图片URL)
+<div style="margin: 24px 0; padding: 24px; background: #f6f6f6; border-radius: 8px; text-align: center; color: #888;"><em>图：内群体偏见：内部成员vs外部成员在评价、资源分配和信任度上的差异</em></div>
 
 **内群体偏见在日常中的表现：**
 
@@ -46,7 +46,7 @@
 
 研究者做了一个实验：让参与者选择是否同意一个争议性陈述，然后估计有多少其他人和他们观点一致。结果显示，平均来说，参与者估计有60%-70%的人与自己一致——而实际上一致率通常在30%-40%之间。
 
-![错误共识效应：感知共识vs实际共识的差距](图片URL)
+<div style="margin: 24px 0; padding: 24px; background: #f6f6f6; border-radius: 8px; text-align: center; color: #888;"><em>图：错误共识效应：感知共识vs实际共识的差距</em></div>
 
 **为什么我们会高估"共识"？**
 
@@ -72,7 +72,7 @@
 
 这个偏差有极强的情感冲击力，因为它触及了人类最基本的安全感需求：如果世界是公正的，那我只要行为正确，就不会被伤害。维持这个信念有巨大的心理价值——即使它与现实不符。
 
-![公正世界谬误：公平感知如何影响对受害者的评价](图片URL)
+<div style="margin: 24px 0; padding: 24px; background: #f6f6f6; border-radius: 8px; text-align: center; color: #888;"><em>图：公正世界谬误：公平感知如何影响对受害者的评价</em></div>
 
 **公正世界谬误最常见的表现：**
 
@@ -101,7 +101,7 @@
 
 锚定效应最经典的实验是：研究者让参与者先转一个随机数字的轮盘，然后估计联合国中非洲国家数量的百分比。结果，转到10的人估计约25%，转到65的人估计约45%——轮盘数字完全是随机的，与非洲国家数量毫无关系，但参与者的估计被显著"锚定"了。
 
-![锚定效应：初始数字如何影响后续数值估计](图片URL)
+<div style="margin: 24px 0; padding: 24px; background: #f6f6f6; border-radius: 8px; text-align: center; color: #888;"><em>图：锚定效应：初始数字如何影响后续数值估计</em></div>
 
 **锚定效应在商业和生活中的无处不在：**
 
@@ -127,7 +127,7 @@
 
 维持现状偏见的本质是**损失厌恶**（Loss Aversion）的延伸：人们对于损失的厌恶程度约是同等收益愉悦感的2倍。因此，即使新的选择客观上更好，大脑也会将"离开现状"感知为一种损失，从而产生抗拒。
 
-![维持现状偏见：改变被视为损失的心理权重](图片URL)
+<div style="margin: 24px 0; padding: 24px; background: #f6f6f6; border-radius: 8px; text-align: center; color: #888;"><em>图：维持现状偏见：改变被视为损失的心理权重</em></div>
 
 **维持现状偏见在个人生活中的表现：**
 
@@ -155,7 +155,7 @@
 
 David McRaney 在其著作 *You Are Not So Smart* 中描述了这个效应的典型过程：一个人持有观点P；出现了反面证据E；这个人面对E时，不是修正P，而是强化了对P的信念。
 
-![逆火效应：反面证据如何强化原有信念](图片URL)
+<div style="margin: 24px 0; padding: 24px; background: #f6f6f6; border-radius: 8px; text-align: center; color: #888;"><em>图：逆火效应：反面证据如何强化原有信念</em></div>
 
 **逆火效应在现实中的例子：**
 
@@ -184,7 +184,7 @@ David McRaney 在其著作 *You Are Not So Smart* 中描述了这个效应的典
 
 刻板印象是最古老的认知捷径之一——在没有足够信息时，用群体特征代替个体特征，是大脑节省认知资源的默认策略。问题不在于"用刻板印象"这个机制本身（这是大脑正常的模式识别），问题在于我们往往在有了充分个体信息的情况下，依然坚持刻板印象。
 
-![刻板印象：群体特征如何替代个体认知](图片URL)
+<div style="margin: 24px 0; padding: 24px; background: #f6f6f6; border-radius: 8px; text-align: center; color: #888;"><em>图：刻板印象：群体特征如何替代个体认知</em></div>
 
 **刻板印象的形成机制：**
 
@@ -212,7 +212,7 @@ David McRaney 在其著作 *You Are Not So Smart* 中描述了这个效应的典
 
 你有没有过这种体验：在紧急情况或创伤事件中，时间似乎变慢了——你能看清平时看不见的细节，似乎有更多时间反应，但实际上整个事件只持续了几秒钟。
 
-![时间感知扭曲：不同情绪状态下的时间流逝速度感知](图片URL)
+<div style="margin: 24px 0; padding: 24px; background: #f6f6f6; border-radius: 8px; text-align: center; color: #888;"><em>图：时间感知扭曲：不同情绪状态下的时间流逝速度感知</em></div>
 
 **时间感知扭曲在学习和教育中的意义：**
 
@@ -232,7 +232,7 @@ David McRaney 在其著作 *You Are Not So Smart* 中描述了这个效应的典
 
 这个名称来源于一个虚构场景：居民委员会开会讨论一个重大计划——建造核电站——讨论了五分钟就通过了；但当讨论到自行车棚的颜色时，委员们花了45分钟激烈争论。
 
-![自行车棚效应：复杂问题vs琐碎问题获得的关注和讨论时间](图片URL)
+<div style="margin: 24px 0; padding: 24px; background: #f6f6f6; border-radius: 8px; text-align: center; color: #888;"><em>图：自行车棚效应：复杂问题vs琐碎问题获得的关注和讨论时间</em></div>
 
 **自行车棚效应的心理根源：**
 

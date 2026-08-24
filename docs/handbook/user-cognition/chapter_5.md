@@ -22,7 +22,7 @@
 
 最著名的案例是美国猪湾事件（Bay of Pigs）：1961年，肯尼迪政府批准了对古巴的入侵计划，情报界普遍认为成功概率很高。但回头看，有大量内部异议被压制了——因为团队成员不想在关键问题上挑战团队共识。
 
-![团体迷思：团队决策中异议被压制的机制](图片URL)
+<div style="margin: 24px 0; padding: 24px; background: #f6f6f6; border-radius: 8px; text-align: center; color: #888;"><em>图：团体迷思：团队决策中异议被压制的机制</em></div>
 
 **团体迷思的8个典型症状（Janis原始模型）：**
 
@@ -60,7 +60,7 @@
 
 心理学家Thomas Gilovich的实验证实了这一点：他让大学生穿上Barry Manilow（一位在当时被认为是"过时"的歌手）的T恤进入其他学生群体，然后问穿T恤的学生有多少人注意到了T恤——估计约50%的人会注意到。实际注意到的人数：约23%。而没穿T恤的学生高估得更多——他们估计约62%的人都注意到了。
 
-![聚光灯效应：实际关注度vs感知关注度的差距](图片URL)
+<div style="margin: 24px 0; padding: 24px; background: #f6f6f6; border-radius: 8px; text-align: center; color: #888;"><em>图：聚光灯效应：实际关注度vs感知关注度的差距</em></div>
 
 **聚光灯效应在消费和金钱决策中的表现：**
 
@@ -84,7 +84,7 @@
 
 这个偏差与朴素实在论（Naive Realism）是一对：朴素实在论让我们觉得"我的判断是客观的，别人是不理性的"；幼稚的愤世嫉俗则让我们觉得"别人的行为都是自私的，只有我的行为有其他动机"。
 
-![幼稚的愤世嫉俗：他人行为vs自我行为的动机归因差异](图片URL)
+<div style="margin: 24px 0; padding: 24px; background: #f6f6f6; border-radius: 8px; text-align: center; color: #888;"><em>图：幼稚的愤世嫉俗：他人行为vs自我行为的动机归因差异</em></div>
 
 **幼稚的愤世嫉俗在商业和谈判中的表现：**
 
@@ -111,7 +111,7 @@
 
 这个概念由Cass Sunstein提出，描述了一个社会心理学机制：**一件事越被讨论，它就显得越重要；它越显得重要，就有更多人讨论它——这是一个自我强化的循环。**
 
-![效用层叠：单一事件如何通过媒体放大变成社会共识](图片URL)
+<div style="margin: 24px 0; padding: 24px; background: #f6f6f6; border-radius: 8px; text-align: center; color: #888;"><em>图：效用层叠：单一事件如何通过媒体放大变成社会共识</em></div>
 
 **效用层叠的经典案例：**
 
@@ -144,7 +144,7 @@
 
 理性分析表明，B方案的期望值（33%）与A方案（75%）不同，但人们对零风险（"确定救活150人"）的偏好远高于概率性风险——即使A方案在绝对值上更好。
 
-![零风险偏好：确定性小收益vs不确定性大收益的心理权重差异](图片URL)
+<div style="margin: 24px 0; padding: 24px; background: #f6f6f6; border-radius: 8px; text-align: center; color: #888;"><em>图：零风险偏好：确定性小收益vs不确定性大收益的心理权重差异</em></div>
 
 **零风险偏好在个人财务中的表现：**
 
@@ -170,7 +170,7 @@
 
 赌场是赌徒谬误最经典的场景：在轮盘上连续出现5次红色，有人开始大量押注黑色——因为"红色出现太多了，下次该黑色了"。但轮盘是物理独立的随机事件，每次出现红色或黑色的概率都是50%，与之前的结果完全无关。
 
-![赌徒谬误：独立随机事件的"趋势"感知](图片URL)
+<div style="margin: 24px 0; padding: 24px; background: #f6f6f6; border-radius: 8px; text-align: center; color: #888;"><em>图：赌徒谬误：独立随机事件的"趋势"感知</em></div>
 
 **赌徒谬误在投资中的灾难性表现：**
 
